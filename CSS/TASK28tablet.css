@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(/NETFLIX/NG-en-20240326-popsignuptwoweeks-perspective_alpha_website_small\ \(1\).jpg);
+}
+
+.overlay {
+    position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 122vh;
+    background-color: rgba(11, 1, 1, 0.661);
+}
+
+#header {
+    position: relative;
+}
+
+.head {
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    z-index: 2;
+}
+
+.head img {
+    width: 17vw;
+}
+
+#section1 {
+    position: relative;
+}
+
+.sec1 {
+    position: absolute;
+    top: 10vh;
+    left: 28vw;
+    width: 100vw;
+}
+
+.sec1a {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.614);
+    width: 45.5vw;
+    height: 75vh;
+}
+
+.sec1a h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+
+#myemail {
+    padding: 1.8rem 1.5rem;
+    width: 33vw;
+    border: 1px solid rgba(128, 128, 128, 0.663);
+    margin-left: 1.5rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    background-color: rgba(0, 0, 0, 0.353);
+}
+
+#mypwd {
+    padding: 1.8rem 1.5rem;
+    width: 33vw;
+    border: 1px solid rgba(128, 128, 128, 0.663);
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.353);
+}
+
+#signin {
+    padding: 1rem 1.5rem;
+    width: 33vw;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    background-color: red;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.sec1a h2 {
+    width: 33vw;
+    text-align: center;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.813);
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+}
+
+#code {
+    padding: 1rem 1.5rem;
+    width: 33vw;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    background-color: grey;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.sec1a h3 {
+    width: 33vw;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sec1a a {
+    color: white;
+    text-decoration: none;
+}
+
+#myremember {
+    margin-left: 1.5rem;
+}
+
+#reme {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.sec1a h4 {
+    color: rgba(128, 128, 128, 0.881);
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    font-weight: lighter;
+}
+
+.sec1a p {
+    color: rgba(128, 128, 128, 0.891);
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    line-height: 2rem;
+}
+
+.sec1a h6 {
+    color: rgba(128, 128, 128, 0.891);
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+
+.space {
+    position: absolute;
+    top: 140vw;
+    width: 105vw;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.577);
+    display: none;
+}
+
+#footer {
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    width: 100vw;
+    height: 32vh;
+    top: 90vh;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.723);
+}
+
+.foot1 {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+
+.foot1 h4 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.foot2 {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+}
+
+.foot2 ul {
+    list-style-type: none;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot3 {
+    position: absolute;
+    top: 10vh;
+    left: 45vw;
+}
+
+.foot3 ul {
+    list-style-type: none;
+}
+
+.foot3 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot4 {
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+}
+
+.foot4 ul {
+    list-style-type: none;
+}
+
+.foot4 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot5 {
+    position: absolute;
+    top: 15vh;
+    left: 45vw;
+}
+
+.foot5 ul {
+    list-style-type: none;
+}
+
+.foot5 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot6 {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+}
+
+.foot6 ul {
+    list-style-type: none;
+}
+
+.foot6 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot7 {
+    position: absolute;
+    top: 20vh;
+    left: 45vw;
+}
+
+.foot7 ul {
+    list-style-type: none;
+}
+
+.foot7 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot8 {
+    position: absolute;
+    top: 25vh;
+    left: 5vw;
+}
+
+#mylang {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.6rem;
+    outline: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.814);
+}

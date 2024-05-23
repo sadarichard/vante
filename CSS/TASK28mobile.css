@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body {
+}
+
+#header {
+    position: relative;
+}
+
+.head {
+    position: absolute;
+    top: 2vh;
+    left: 5vw;
+}
+
+.head img {
+    width: 18vw;
+}
+
+#section1 {
+    position: relative;
+}
+
+.sec1 {
+    position: absolute;
+    top: 5vh;
+    left: -5vw;
+    color: white;
+}
+
+.sec1a h1 {
+    font-size: 3.5rem;
+    width: 100vw;
+}
+
+#myemail {
+    padding: 2rem 1.5rem;
+    width: 87vw;
+    border: 1px solid rgba(128, 128, 128, 0.663);
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#mypwd {
+    padding: 2rem 1.5rem;
+    width: 87vw;
+    border: 1px solid rgba(128, 128, 128, 0.663);
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#signin {
+    padding: 1.3rem 1.5rem;
+    width: 87vw;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+}
+
+.sec1a h2 {
+    width: 87vw;
+    text-align: center;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.813);
+    font-size: 1.5rem;
+}
+
+#code {
+    padding: 1.3rem 1.5rem;
+    width: 87vw;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color: white;
+}
+
+.sec1a h3 {
+    width: 87vw;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sec1a a {
+    color: white;
+    text-decoration: none;
+}
+
+#myremember {
+    margin-left: 1.5rem;
+}
+
+#reme {
+    top: 0vh;
+    left: 0vw;
+    font-size: 1.4rem;
+    width: 100vw;
+}
+
+.sec1a h4 {
+    color: rgba(128, 128, 128, 0.881);
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    font-weight: lighter;
+    width: 100vw;
+}
+
+.sec1a p {
+    width: 100vw;
+    color: rgba(128, 128, 128, 0.891);
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+
+.sec1a h6 {
+    width: 100vw;
+    color: rgba(128, 128, 128, 0.891);
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    display: block;
+    line-height: 1.5rem;
+}
+
+.space {
+    position: absolute;
+    top: 75vh;
+    left: 0vw;
+    width: 105vw;
+    border: 0;
+    background-color: grey;
+    padding: 0.003rem;
+    display: block;
+}
+
+#footer {
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    top: 90vh;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.723);
+}
+
+.foot1 {
+    position: absolute;
+    top: -5vh;
+    left: 6vw;
+}
+
+.foot1 h4 a {
+    text-decoration: none;
+    color: grey;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.foot2 {
+    position: absolute;
+    top: 0vh;
+    left: 6vw;
+}
+
+.foot2 ul {
+    list-style-type: none;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.foot3 {
+    position: absolute;
+    top: 4vh;
+    left: 6vw;
+    width: 100vw;
+}
+
+.foot3 ul {
+    list-style-type: none;
+}
+
+.foot3 a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.foot4 {
+    position: absolute;
+    top: 8vh;
+    left: 6vw;
+}
+
+.foot4 ul {
+    list-style-type: none;
+}
+
+.foot4 a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.foot5 {
+    position: absolute;
+    top: 0vh;
+    left: 50vw;
+}
+
+.foot5 ul {
+    list-style-type: none;
+}
+
+.foot5 a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.foot6 {
+    position: absolute;
+    top: 4vh;
+    left: 50vw;
+}
+
+.foot6 ul {
+    list-style-type: none;
+}
+
+.foot6 a {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.foot7 {
+    position: absolute;
+    top: 8vh;
+    left: 50vw;
+}
+
+.foot7 ul {
+    list-style-type: none;
+}
+
+.foot7 a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.foot8 {
+    position: absolute;
+    top: 13vh;
+    left: 6vw;
+}
+
+#mylang {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.6rem;
+    outline: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.814);
+    display: block;
+}

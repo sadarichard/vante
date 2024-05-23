@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navigation {
+    position: relative;
+}
+
+div.nav1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 4.375rem;
+    background-color: rgb(199, 7, 7);
+}
+
+div.nav1a {
+    position: absolute;
+    top: 0.625rem;
+    left: 1rem;
+}
+
+div.nav1b {
+    position: absolute;
+    top: 1.563rem;
+    left: 25rem;
+} 
+
+div.nav1b ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+div.nav1b li {
+    float: left;
+    padding: 0rem 1.563rem 0rem 1.25rem;
+    font-size: 1rem;
+}
+
+div.nav1b a {
+    color: white;
+}
+
+div.nav1b a:link, a:visited {
+    display: none;
+    text-decoration: none;
+}
+
+div.nav1b a:hover {
+    text-decoration: underline;
+}
+
+div.nav1c {
+    position: absolute;
+    top: 1rem;
+    right: 6.25rem;
+}
+
+div.nav1c ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+div.nav1c li {
+    float: left;
+}
+
+div.nav1c a:link, a:visited {
+    display: none;
+    font-size: 1rem;
+    border: 0;
+    padding: 0.625rem 1.125rem;
+    text-decoration: none;
+    color: red;
+    background-color: white;
+}
+
+#section1 {
+    position: relative;
+}
+
+div.sec1 {
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    background-color: rgba(128, 128, 128, 0.127);
+}
+
+div.sec1a {
+    position: absolute;
+    top: 12.125rem;
+    text-align: center;
+    width: 100%;
+}
+
+div.sec1a h2 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: bolder;
+    opacity: 0.8;
+    margin-bottom: 3rem;
+}
+
+div.sec1a p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+
+#state {
+    color: rgb(194, 4, 4);
+    padding: 0.5rem 6.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border: 1px solid rgb(194, 4, 4);
+}
+
+#restaurant {
+    color: grey;
+    padding: 0.5rem 5.7rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1.2px solid grey;
+}
+
+div.sec1a1 {
+    position: absolute;
+    top: 30rem;
+    left: 7rem;
+    right: 8rem;
+    width: 70%;
+    border: 0;
+    background-color: rgb(194, 4, 4);
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    padding: 0.031rem 0.063rem;
+}
+
+div.sec1b {
+    position: absolute;
+    width: 100%;
+}
+
+div.sec1b h2 {
+    position: absolute;
+    top: 46rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+div.sec1c {
+    position: absolute;
+    width: 100%;
+}
+
+div.sec1c img {
+    position: absolute;
+    top: 50rem;
+    left: 6rem;
+    width: 9rem;
+}
+
+div.sec1c h3 {
+    position: absolute;
+    top: 59rem;
+    left: 5.5rem;
+    color: rgb(159, 21, 21);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+div.sec1c p {
+    position: absolute;
+    top: 62rem;
+    left: 4.5rem;
+    color: black;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+div.sec1d {
+    position: absolute;
+    width: 100%;
+}
+
+div.sec1d img {
+    position: absolute;
+    top: 50rem;
+    left: 22rem;
+    width: 9rem;
+}
+
+div.sec1d h3 {
+    position: absolute;
+    top: 59rem;
+    width: 100%;
+    text-align: center;
+    color: rgb(159, 21, 21);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+div.sec1d p {
+    position: absolute;
+    top: 62rem;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+div.sec1e {
+    position: absolute;
+    width: 100%;
+}
+
+div.sec1e img {
+    position: absolute;
+    top: 50rem;
+    right: 7rem;
+    width: 9rem;
+}
+
+div.sec1e h3 {
+    position: absolute;
+    top: 59rem;
+    left: 15rem;
+    width: 100%;
+    text-align: center;
+    color: rgb(159, 21, 21);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+div.sec1e p {
+    position: absolute;
+    top: 62rem;
+    left: 14rem;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+div.sec1f {
+    position: absolute;
+    top: 77rem;
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(203, 38, 38);
+}
+
+div.sec1f p {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    color: white;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+div.sec1f a {
+    text-decoration: none;
+}
+
+div.sec1f img {
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+div.sec1f .sada {
+    position: absolute;
+    top: 0rem;
+    left: 11rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+div.sec1g {
+    position: absolute;
+    top: 1255px;
+    width: 100%;
+}
+
+div.sec1g .sadam {
+    position: absolute;
+    display: none;
+}
+
+div.sec1g img {
+    position: absolute;
+    display: none;
+}
+
+#footer {
+    position: relative;
+}
+
+div.foot {
+    position: absolute;
+    bottom: 0;
+    top: 98.5rem;
+    width: 100%;
+    height: 6rem;
+    background-color: black;
+}
+
+div.foot ul {
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+    overflow: hidden;
+}
+
+div.foot li {
+    float: left;
+}
+
+div.foot a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-right: 1.5rem;
+}
+
+
+div.foot h3 {
+    position: absolute;
+    top: 1.5rem;
+    left: 5rem;
+    width: 100%;
+    color: white;
+    font-size: 0.95rem;
+}
+
+div.foot1 {
+    position: absolute;
+    top: 100rem;
+    width: 100%;
+    left: 40rem;
+}
+
+div.foot1 a {
+    text-decoration: none;
+}
+
+div.foot1 img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+

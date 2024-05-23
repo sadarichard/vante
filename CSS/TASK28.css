@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(/NETFLIX/NG-en-20240326-popsignuptwoweeks-perspective_alpha_website_small\ \(1\).jpg);
+    width: 100vw;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 122vh;
+    background-color: rgba(0, 0, 0, 0.392);
+}
+
+#header {
+    position: relative;
+}
+
+.head {
+    position: absolute;
+    top: 1vh;
+    left: 10vw;
+    z-index: 2;
+}
+
+.head img {
+    width: 11vw;
+}
+
+#section1 {
+    position: relative;
+}
+
+.sec1 {
+    position: absolute;
+    top: 10vh;
+    left: 37vw;
+    color: white;
+}
+
+.sec1a {
+    border: 1px solid black;
+    padding: 3rem 4.25rem;
+    background-color: rgba(16, 4, 4, 0.777);
+    width: 27vw;
+    height: 75vh;
+}
+
+.sec1a h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+
+#myemail {
+    padding: 1.8rem 1.5rem;
+    width: 19.5vw;
+    border: 1px solid rgba(128, 128, 128, 0.663);
+    margin-left: 1.5rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    background-color: black;
+}
+
+#mypwd {
+    padding: 1.8rem 1.5rem;
+    width: 19.5vw;
+    border: 1px solid rgba(128, 128, 128, 0.663);
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    background-color: black;
+}
+
+#signin {
+    padding: 1rem 1.5rem;
+    width: 19.5vw;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.sec1a h2 {
+    width: 20vw;
+    text-align: center;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.813);
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#code {
+    padding: 1rem 1.5rem;
+    width: 19.5vw;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.sec1a h3 {
+    width: 20vw;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sec1a a {
+    color: white;
+    text-decoration: none;
+}
+
+#myremember {
+    margin-left: 1.5rem;
+}
+
+#reme {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.sec1a h4 {
+    color: rgba(128, 128, 128, 0.881);
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    font-weight: lighter;
+}
+
+.sec1a p {
+    color: rgba(128, 128, 128, 0.891);
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    line-height: 2rem;
+}
+
+.sec1a h6 {
+    color: rgba(128, 128, 128, 0.891);
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+
+.space {
+    position: absolute;
+    top: 140vw;
+    width: 105vw;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.577);
+    display: none;
+}
+
+#footer {
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    width: 100vw;
+    height: 32vh;
+    top: 90vh;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.723);
+}
+
+.foot1 {
+    position: absolute;
+    top: 7vh;
+    left: 10vw;
+}
+
+.foot1 h4 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.foot2 {
+    position: absolute;
+    top: 7vw;
+    left: 10vw;
+}
+
+.foot2 ul {
+    list-style-type: none;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot3 {
+    position: absolute;
+    top: 7vw;
+    left: 30vw;
+}
+
+.foot3 ul {
+    list-style-type: none;
+}
+
+.foot3 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot4 {
+    position: absolute;
+    top: 7vw;
+    left: 50vw;
+}
+
+.foot4 ul {
+    list-style-type: none;
+}
+
+.foot4 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot5 {
+    position: absolute;
+    top: 7vw;
+    left: 70vw;
+}
+
+.foot5 ul {
+    list-style-type: none;
+}
+
+.foot5 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot6 {
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+}
+
+.foot6 ul {
+    list-style-type: none;
+}
+
+.foot6 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot7 {
+    position: absolute;
+    top: 10vw;
+    left: 30vw;
+}
+
+.foot7 ul {
+    list-style-type: none;
+}
+
+.foot7 a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.foot8 {
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+}
+
+#mylang {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.6rem;
+    outline: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.814);
+}
