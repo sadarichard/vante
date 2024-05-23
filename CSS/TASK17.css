@@ -1,0 +1,1086 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.header {
+    position: relative;
+}
+
+div.headerimage img {
+    width: 100%;
+    height: 800px;
+}
+
+div.headerlogo {
+    position: absolute;
+    top: 20px;
+}
+
+div.headerlogo img {
+    width: 80%;
+    height: 10%;
+    margin-left: 310%;
+}
+
+div.navbar {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+}
+
+div.navbar ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+div.navbar li {
+    float: left;
+    padding: 5px;
+}
+
+div.navbar li a:link, a:visited {
+    display: block;
+    padding: 0.7rem;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    border: 0;
+    outline: 0;
+    border-collapse: collapse;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.navbar li a:hover, a:active {
+    background-color: brown;
+}
+
+#sign-up a:link, a:visited {
+    display: block;
+    padding: 0.7rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 0.938rem;
+    border: 0;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.header1 {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.form {
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+}
+
+#Address {
+    padding: 1.5rem;
+    width: 40%;
+    border: 0;
+    border-radius: 30px;
+    text-align: left;
+    font-size: 0.938rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#signin {
+    padding: 1rem;
+    width: 15%;
+    border: 0;
+    border-radius: 19px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section1 {
+    position: relative;
+}
+
+div.sec1 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+div.scooter {
+    position: absolute;
+    top: 90px;
+    left: 280px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.scooter img {
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+}
+
+div.scooter h3 {
+    font-size: 1.875rem;
+    margin-top: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+div.scooter p {
+    font-size: 1.125rem;
+    text-indent: 5px;
+    text-align-last: center;
+    margin-bottom: 10px;
+}
+
+div.scooter a {
+    color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+div.storefront {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.storefront img {
+    width: 150px;
+    height: 150px;
+}
+
+div.storefront h3 {
+    font-size: 1.875rem;
+    margin-top: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+div.storefront p {
+    font-size: 1.125rem;
+    text-indent: 5px;
+    text-align-last: center;
+    margin-bottom: 10px;
+}
+
+div.storefront a {
+    color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+div.iphone {
+    position: absolute;
+    top: 90px;
+    right: 280px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.iphone img {
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+}
+
+div.iphone h3 {
+    font-size: 1.875rem;
+    margin-top: auto;
+    margin-left: 10px;
+    text-align-last: center;
+    margin-bottom: 10px;
+}
+
+div.iphone p {
+    font-size: 1.125rem;
+    text-indent: 5px;
+    text-align-last: center;
+    margin-bottom: 10px;
+}
+
+div.iphone a {
+    color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+
+div.section2 {
+    position: relative;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.lady {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+}
+
+div.ladyy {
+    position: absolute;
+    top: 510px;
+    right: 250px;
+}
+
+div.ladyy img {
+    width: 630px;
+    height: 500px;
+}
+
+div.lady h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+div.lady h4 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+div.lady p {
+    font-size: 0.938rem;
+    margin-bottom: 30px;
+}
+
+div.lady a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.lady a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+#section3 {
+    position: relative;
+}
+
+div.sec3 {
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    top: 1050px;
+    background-color: rgba(255, 192, 203, 0.163);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.dash {
+    position: absolute;
+    top: 45px;
+    left: 250px;
+}
+
+div.dash img {
+    width: 95%;
+}
+
+div.dashpass {
+    position: absolute;
+    top: 170px;
+    right: 250px;
+}
+
+div.dashpass h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+div.dashpass p {
+    font-size: 0.938rem;
+    margin-bottom: 30px;
+}
+
+div.dashpass a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.dashpass a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.section4 {
+    position: relative;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.stores {
+    position: absolute;
+    top: 1620px;
+    margin: 0;
+    width: 100%;
+}
+
+div.stores img {
+    width: 100%;
+    height: 610px;
+}
+
+div.doorstores {
+    position: absolute;
+    top: 1620px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.532);
+    height: 610px;
+}
+
+div.doorstores h3 {
+    margin-top: 170px;
+    font-size: 2.188rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div.doorstores h4 {
+    font-size: 1.563rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div.doorstores p {
+    font-size: 1.063rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+div.doorstores a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.963rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+div.doorstores a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.section5 {
+    position: relative;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.conve {
+    position: absolute;
+    top: 2450px;
+    left: 250px;
+}
+
+div.conve h3 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 30px;
+}
+
+div.conve p {
+    font-size: 1.063rem;
+    color: black;
+    margin-bottom: 50px;
+}
+
+div.conve a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.963rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+div.conve a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.conven {
+    position: absolute;
+    top: 2300px;
+    right: 250px;
+}
+
+div.conven img {
+    width: 100%;
+}
+
+#section6 {
+    position: relative;
+}
+
+div.sec6 {
+    position: absolute;
+    width: 100%;
+    height: 1630px;
+    top: 2860px;
+    background-color: rgba(255, 192, 203, 0.163);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.help {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+div.package {
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    left: 250px;
+}
+
+div.package img {
+    width: 557px;
+    height: 500px;
+}
+
+div.package h3 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+div.package p {
+    font-size: 0.963rem;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+div.package a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.963rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 13%;
+}
+
+div.package a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.flowers {
+    position: absolute;
+    top: 140px;
+    right: 250px;
+}
+
+div.flowers img {
+    width: 557px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+div.flowers h3 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+div.flowers p {
+    font-size: 0.938rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+div.flowers a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+
+div.flowers a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.minibar {
+    position: absolute;
+    top: 900px;
+    left: 250px;
+}
+
+div.minibar img {
+    width: 557px;
+    height: 500px;
+}
+
+div.minibar h3 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+div.minibar h4 {
+    font-size: 0.938rem;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.minibar p {
+    font-size: 0.938rem;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+div.minibar a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+
+div.minibar a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.pets {
+    position: absolute;
+    top: 900px;
+    right: 250px;
+}
+
+div.pets img {
+    width: 557px;
+    height: 500px;
+}
+
+div.pets h3 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div.pets p {
+    font-size: 0.938rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.pets a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+
+div.pets a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.section7 {
+    position: relative;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.unlock {
+    position: absolute;
+    top: 4550px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+div.signup {
+    position: absolute;
+    top: 4810px;
+    left: 250px;
+}
+
+div.signup h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+div.signup p {
+    font-size: 0.938rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+div.signup a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+div.signup a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.dasher {
+    position: absolute;
+    top: 4700px;
+    right: 250px;
+}
+
+div.dasher img {
+    width: 100%;
+}
+
+#section8 {
+    position: relative;
+}
+
+div.sec8 {
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(255, 192, 203, 0.225);
+    top: 5240px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div.work {
+    position: absolute;
+    top: 40px;
+    left: 250px;
+}
+
+div.work img {
+    width: 90%;
+}
+
+div.grow {
+    position: absolute;
+    top: 100px;
+    right: 250px;
+}
+
+div.grow h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+div.grow p {
+    font-size: 1.063rem;
+    color: black;
+    margin-bottom: 30px;
+}
+
+div.grow a:link, a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+div.grow a:hover, a:active {
+    color: white;
+    background-color: brown;
+}
+
+div.get {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    top: 5800px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.get h3 {
+    position: absolute;
+    top: 10px;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+table {
+    position: absolute;
+    left: 250px;
+    right: 250px;
+    width: 71%;
+    top: 6700px;
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    margin-right: 50px;
+    padding: 10px;
+    border-bottom: 3px solid grey;
+}
+
+td {
+    text-align: center;
+    padding: 20px 15px 5px 10px;
+}
+
+td:hover, th:hover {
+    background-color: grey;
+    opacity: 0.3;
+}
+
+#footer {
+    position: relative;
+}
+
+div.foot {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    top: 6000px;
+}
+
+div.category {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    color: white;
+    font-size: 15px;
+}
+
+div.list1 {
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+div.list1 a {
+    padding: 3px 0px;
+    display: block;
+}
+
+div.list1 a:link, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+div.list1 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+div.list1 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.list2 {
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+div.list2 a {
+    padding: 3px 0px;
+    display: block;
+}
+
+div.list2 a:link, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+div.list2 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+div.list2 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.list3 {
+    position: absolute;
+    top: 70px;
+    left: 950px;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+div.list3 a {
+    padding: 3px 0px;
+    display: block;
+}
+
+div.list3 a:link, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+div.list3 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+div.list3 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.list4 {
+    position: absolute;
+    top: 70px;
+    left: 1300px;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+div.list4 a {
+    padding: 3px 0px;
+    display: block;
+}
+
+div.list4 a:link, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+div.list4 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+div.list4 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.gett {
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 250px;
+    font-size: 0.938rem;
+}
+
+div.list5 {
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+div.list5 a {
+    padding: 3px 0px;
+    display: block;
+}
+
+div.list5 a:link, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+div.list5 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+div.list5 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.let {
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 500px;
+    font-size: 0.938rem;
+}
+
+div.list6 {
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+div.list6 a {
+    padding: 3px 0px;
+    display: block;
+}
+
+div.list6 a:link, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+div.list6 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+div.list6 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.done {
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 800px;
+    font-size: 0.938rem;
+}
+
+div.list7 {
+    position: absolute;
+    top: 270px;
+    left: 800px;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+div.list7 a {
+    padding: 3px 0px;
+    display: block;
+}
+
+div.list7 a:link, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+div.list7 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+div.list7 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.link1 {
+    position: absolute;
+    top: 270px;
+}
+
+div.link1 img {
+    width: 25%;
+    margin-left: 220%;
+}
+
+div.link2 {
+    position: absolute;
+    top: 320px;
+}
+
+div.link2 img {
+    width: 25%;
+    margin-left: 249%;
+}
+
+div.end {
+    position: absolute;
+    top: 650px;
+    left: 250px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+div.end a {
+    padding: 10px;
+}
+
+div.end a:link, a:visited {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+div.end p {
+    display: inline;
+    font-size: 0.75rem;
+    color: white;
+    opacity: 0.5;
+}
