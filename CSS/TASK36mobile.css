@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    font-size: 50%;
+}
+
+.asset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url('/Natureheals/Sada.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.asset1 {
+    z-index: 1;
+    width: 80vw;
+    min-height: 45vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 3rem;
+}
+
+.asset1 h2{
+    margin-bottom: 3rem;
+}
+
+.asset1 p {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.asset1 button {
+    width: 20vw;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: rgb(75, 0, 129);
+    color: rgb(255, 255, 255);
+}
+
+.asset1 button:hover {
+    background-color: rgb(91, 5, 152);
+}
+
+.recreate {
+    z-index: 1;
+    width: 70vw;
+    height: 53vh;
+    background-color: rgba(210, 201, 205, 0.9);
+    font-size: 1.6rem;
+    box-shadow: 3px 3px 2px rgb(22, 53, 22);
+
+}
+
+.recreate h2 {
+    padding: 2rem;
+    text-align: center; 
+    margin-bottom: 3rem;  
+}
+
+#username {
+    width: 65vw;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    border: 0.2px solid black;
+    outline: none;
+    margin-bottom: 2.5rem;  
+}
+
+#pwd {
+    margin-left: 2rem;
+    width: 65vw;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: 0.2px solid black;
+    margin-bottom: 2.5rem;
+}
+
+.recreate button {
+    margin-left: 2rem;
+    width: 65vw;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: rgb(75, 0, 129);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.recreate button:hover {
+    background-color: rgb(91, 5, 152);
+}
+
+.recreate a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: rgb(28, 115, 215);
+    font-size: 1.3rem;
+}
+
+.recreate a:hover {
+    color: rgb(77, 143, 218);
+}

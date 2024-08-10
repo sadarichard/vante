@@ -1,0 +1,836 @@
+/* DESKTOP VERSION */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    min-height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.flex {
+    width: 100vw;
+    height: 10vh;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head1 {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+.head2 {
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2rem;
+} 
+
+.head3 {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(2, 93, 42);
+    font-weight: bold;
+}
+
+.head4 {
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(172, 149, 16);
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav {
+    background-color: rgb(2, 93, 42);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px rgb(172, 149, 16);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    width: 10vw;
+    text-decoration: none;
+    padding-right: 5rem;
+    font-size: 1.5rem;
+    color: white;
+    width: 10vw;
+}
+
+.nav li a:hover {
+    color: black;
+}
+
+button {
+    margin-right: 5rem;
+    display: block;
+    padding: 1rem 2rem;
+    background-color: rgb(172, 149, 16);
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.section1 {
+    background-image: url(/ACPN/pharmacy-store\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    color: rgb(172, 149, 16);
+}
+
+.sec1a {
+    background-color: rgb(2, 93, 41);
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+.sec1a img {
+    width: 50%;
+}
+
+.sec1a h2 {
+    text-align: center;
+}
+
+.sec1b {
+    background-color: rgb(2, 93, 42);
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    line-height: 1.54rem;
+}
+
+.sec1b img {
+    width: 50%;
+}
+
+.sec1c {
+    background-color: rgb(2, 93, 42);
+    width: 40vw;
+    height: 20vh;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+.foot {
+    background-color: rgb(2, 93, 42);
+    color: white;
+    border: 1px solid rgb(2, 93, 42);
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.foot1 {
+    width: 25vw;
+    height: 40vh;
+    gap: 4rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+
+.foot1 img {
+    width: 50%;
+}
+
+.foot2 {
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.foot2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.foot2 a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 5rem;
+}
+
+.foot2 a:hover {
+    text-decoration: underline;
+    color: rgb(172, 149, 16);
+}
+
+.foot3 {
+    width: 100vw;
+    height: 0.5px;
+    background-color: rgb(172, 149, 16);
+}
+
+.foot4 {
+    width: 100vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+span {
+    color: rgb(172, 149, 16);
+}
+
+/* TABLET VERSION */
+
+@media screen and (max-width: 1100px) {   
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    html {
+        font-size: 60%;
+    }
+
+    .container {
+        min-height: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .flex {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+    }
+
+    .head1 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    } 
+
+    .head2 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 2rem;
+    } 
+
+    .head3 {
+        width: 30vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(2, 93, 42);
+        font-weight: bold;
+        display: none;
+    }
+
+    .head4 {
+        width: 55vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(172, 149, 16);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav {
+        background-color: rgb(2, 93, 42);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 5px 1px rgb(172, 149, 16);
+        padding: 1rem;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        width: 10vw;
+        text-decoration: none;
+        padding-right: 3rem;
+        font-size: 1.5rem;
+        color: white;
+        width: 10vw;
+    }
+
+    .nav li a:hover {
+        color: black;
+    }
+
+    button {
+        margin-right: 3rem;
+        display: block;
+        padding: 1rem 1rem;
+        background-color: rgb(172, 149, 16);
+        border: none;
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    button:hover {
+        background-color: grey;
+    }
+
+    .section1 {
+        background-image: url(/ACPN/pharmacy-store\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 3rem;
+        color: rgb(172, 149, 16);
+    }
+    
+    .sec1a {
+        background-color: rgb(2, 93, 41);
+        width: 45vw;
+        height: 40vh;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+        gap: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .sec1a img {
+        width: 50%;
+    }
+    
+    .sec1a h2 {
+        text-align: center;
+    }
+    
+    .sec1b {
+        background-color: rgb(2, 93, 42);
+        width: 45vw;
+        height: 40vh;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        gap: 1rem;
+        border-radius: 1rem;
+        padding: 2rem;
+        line-height: 1.54rem;
+    }
+    
+    .sec1b img {
+        width: 50%;
+    }
+    
+    .sec1c {
+        background-color: rgb(2, 93, 42);
+        width: 60vw;
+        height: 20vh;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        gap: 1rem;
+        border-radius: 1rem;
+    }
+
+    .foot {
+        background-color: rgb(2, 93, 42);
+        color: white;
+        border: 1px solid rgb(2, 93, 42);
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .foot1 {
+        width: 55vw;
+        height: 40vh;
+        gap: 4rem;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        color: white;
+    }
+
+    .foot1 p {
+        line-height: 2.5rem;
+    }
+
+    .foot1 img {
+        width: 50%;
+    }
+
+    .foot2 {
+        width: 25vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+
+    .foot2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .foot2 a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        padding-right: 5rem;
+    }
+
+    .foot2 a:hover {
+        text-decoration: underline;
+        color: rgb(172, 149, 16);
+    }
+
+    .foot3 {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgb(172, 149, 16);
+    }
+
+    .foot4 {
+        width: 100vw;
+        height: 5vh;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    span {
+        color: rgb(172, 149, 16);
+    }
+}
+/* MOBILE VERSION */
+
+@media screen and (max-width: 600px) {   
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        min-height: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .flex {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+    }
+
+    .head1 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    } 
+
+    .head2 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 2rem;
+    } 
+
+    .head3 {
+        width: 30vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(2, 93, 42);
+        font-weight: bold;
+        display: none;
+    }
+
+    .head4 {
+        width: 55vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(172, 149, 16);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav {
+        background-color: rgb(2, 93, 42);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 5px 1px rgb(172, 149, 16);
+        padding: 1rem;
+        display: none;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        width: 10vw;
+        text-decoration: none;
+        padding-right: 3rem;
+        font-size: 1.5rem;
+        color: white;
+        width: 10vw;
+    }
+
+    .nav li a:hover {
+        color: black;
+    }
+
+    button {
+        margin-right: 3rem;
+        display: block;
+        padding: 1rem 1rem;
+        background-color: rgb(172, 149, 16);
+        border: none;
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    button:hover {
+        background-color: grey;
+    }
+
+    .section1 {
+        background-image: url(/ACPN/pharmacy-store\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        min-height: 110vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 1rem;
+        color: rgb(172, 149, 16);
+    }
+    
+    .sec1a {
+        background-color: rgb(2, 93, 41);
+        width: 70vw;
+        height: 40vh;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        gap: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .sec1a img {
+        width: 70%;
+    }
+    
+    .sec1a h2 {
+        text-align: center;
+    }
+    
+    .sec1b {
+        background-color: rgb(2, 93, 42);
+        width: 70vw;
+        height: 40vh;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        gap: 1rem;
+        border-radius: 1rem;
+        padding: 2rem;
+        line-height: 2rem;
+    }
+    
+    .sec1b img {
+        width: 70%;
+    }
+
+    .sec1b p {
+        margin-left: 2rem;
+    }
+    
+    .sec1c {
+        background-color: rgb(2, 93, 42);
+        width: 70vw;
+        height: 20vh;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        gap: 1rem;
+        border-radius: 1rem;
+    }  
+
+    .foot {
+        background-color: rgb(2, 93, 42);
+        color: white;
+        border: 1px solid rgb(2, 93, 42);
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .foot1 {
+        width: 55vw;
+        height: 40vh;
+        gap: 4rem;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        color: white;
+    }
+
+    .foot1 img {
+        width: 50%;
+    }
+
+    .foot2 {
+        width: 25vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+
+    .foot2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .foot2 a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        padding-right: 5rem;
+    }
+
+    .foot2 a:hover {
+        text-decoration: underline;
+        color: rgb(172, 149, 16);
+    }
+
+    .foot3 {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgb(172, 149, 16);
+    }
+
+    .foot4 {
+        width: 100vw;
+        height: 5vh;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    span {
+        color: rgb(172, 149, 16);
+    }
+}

@@ -1,0 +1,536 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Header CSS */
+
+.flexbox-containerhead {
+    display: flex;
+} 
+
+.headspan {
+    color: rgb(3, 133, 3);
+}
+
+.flexbox-itemA {
+    width: 80vw;
+    min-height: 6vh;
+    font-size: 1.5rem;
+    background-color: rgb(52, 58, 64);
+}
+
+.flexbox-item1 ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 1.9rem 2rem 0rem 0rem;
+}
+
+.flexbox-item1 li {
+    float: left;
+}
+
+.flexbox-item1 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 15rem;
+    margin-right: 2rem;
+}
+
+.flexbox-item2 {
+    width: 20vw;
+    min-height: 6vh;
+    font-size: 1.5rem;
+    background-color: rgb(52, 58, 64);
+}
+
+.flexbox-item2 img {
+    width: 1.7vw;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.flexbox-item2 ul {
+    list-style-type: none;
+}
+
+.flexbox-item2 li {
+    float: left;
+}
+
+/* Navbar CSS */
+
+.flexbox-containernav {
+   display: flex;
+}
+
+.flexbox-itemB {
+    width: 20vw;
+    min-height: 10vh;
+    font-size: 1.5rem;
+}
+
+.flexbox-item3 img {
+    width: 9vw;
+    margin-left: 8.8vw;
+    margin-top: 1vh;
+}
+
+.flexbox-item4 {
+    width: 80vw;
+    min-height: 10vh;
+    font-size: 1.5rem;
+}
+
+.flexbox-item4 ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 3.5rem 2rem 0rem 0rem;
+    margin-left: 0vw;
+}
+
+.flexbox-item4 li {
+    float: left;
+}
+
+.flexbox-item4 a {
+    color: rgba(0, 0, 0, 0.64);
+    text-decoration: none;
+    display: block;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+
+/* Section 1 */
+
+.flexbox-containersec1 {
+   display: flex;
+}
+
+.flexbox-itemC {
+    width: 55vw;
+    height: 101vh;
+    font-size: 1.5rem;
+    z-index: 2;
+    background-image: url(/Natureheals/pattern.jpg);
+}
+
+.flexbox-item5 .line {
+    z-index: 10;
+    width: 15vw;
+    height: 0.2vh;
+    margin-top: 30vh;
+    margin-left: 15rem;
+    background-color: rgb(3, 133, 3);
+}
+
+.flexbox-itemC h1 {
+    font-size: 5rem;
+    color: white;
+    margin-top: 5vh;
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+    text-align: left;
+    line-height: 6rem;
+}
+
+.flexbox-itemC p {
+    color: white;
+    font-size: 2.3rem;
+    text-align: left;
+    margin-left: 15rem;
+    margin-bottom: 7rem;
+    font-weight: lighter;
+    line-height: 3rem;
+}
+
+.flexbox-itemC a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15rem;
+    padding: 2rem 6rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 166, 80);
+}
+
+.flexbox-item6 {
+    width: 45vw;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.flexbox-item6 img {
+    width: 45vw;
+    height: 100vh;
+}
+
+/* Section2 css */
+
+.flexbox-containersec2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: rgb(0, 166, 80);
+}
+
+.flexbox-itemD {
+    width: 100vw;
+    height: 40vh;
+    font-size: 1.5rem;
+    background-color: rgb(0, 166, 80);
+    z-index: 1;
+    text-align: center;
+}
+
+.flexbox-item7 h2 {
+    color: white;
+    margin-top: 5rem;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+.flexbox-item7 p {
+    color: rgb(182, 230, 205);
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-top: 1rem;
+    font-weight: lighter;
+}
+
+.flexbox-item8 {
+    width: 33vw;
+    height: 30vh;
+    font-size: 1.5rem;
+    background-color: rgb(0, 166, 80);
+    z-index: 1;
+    text-align: center;
+}
+
+.flexbox-item8 h2 {
+    color: white;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.flexbox-item8 p {
+    color: rgb(182, 230, 205);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.flexbox-item9 {
+    width: 33vw;
+    height: 30vh;
+    font-size: 1.5rem;
+    background-color: rgb(0, 166, 80);
+    z-index: 1;
+    text-align: center;
+}
+
+.flexbox-item9 h2 {
+    color: white;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.flexbox-item9 p {
+    color: rgb(182, 230, 205);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.flexbox-item10 {
+    width: 33vw;
+    height: 30vh;
+    font-size: 1.5rem;
+    background-color: rgb(0, 166, 80);
+    z-index: 1;
+    text-align: center;
+}
+
+.flexbox-item10 h2 {
+    color: white;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.flexbox-item10 p {
+    color: rgb(182, 230, 205);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.flexbox-item11 {
+    width: 60vw;
+    height: 50vh;
+    font-size: 1.5rem;
+    background-color: rgb(0, 166, 80);
+    z-index: 1;
+    text-align: center;
+}
+
+.flexbox-item11 img {
+    width: 60vw;
+}
+
+/* Section3 css */
+
+.flexbox-containersec3 {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.flexbox-itemE {
+    width: 100vw;
+    height: 40vh;
+    font-size: 1.5rem;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.flexbox-item12 h2 {
+    color: black;
+    margin-top: 2.5rem;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+.flexbox-item12 p {
+    color: rgba(0, 0, 0, 0.456);
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-top: 3rem;
+    font-weight: lighter;
+}
+
+.flexbox-item13 {
+    width: 50vw;
+    height: 0.1vh;
+    background-color: rgb(3, 133, 3);
+    z-index: 1;
+    margin-left: 40rem;
+    margin-top: 5rem;
+}
+
+.flexbox-item14 {
+    width: 15vw;
+    height: 40vh;
+    font-size: 1.5rem;
+    z-index: 1;
+    background-color: rgb(3, 18, 65);
+    margin-top: 5rem;
+}
+
+.flexbox-item14 p {
+    color: white;
+    margin-left: 2vw;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.flexbox-item14 ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.flexbox-item14 li {
+    color: green;
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+}
+
+.flexbox-item15 {
+    width: 40vw;
+    height: 50vh;
+    margin-top: 5rem;
+}
+
+.flexbox-item15 img {
+    width: 40vw;
+    height: 40vh;
+}
+
+/* Section4 css */
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(242, 242, 242);
+}
+
+.flexbox-item img {
+    width: 40vw;
+}
+
+.flexbox-item {
+    width: 40vw;
+    margin: 1rem;
+}
+
+.flexbox-item-0 {
+    width: 100vw;
+    min-height: 14vh;
+    text-align: center;
+}
+
+.flexbox-item-0 h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.flexbox-item-0 p {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.flexbox-item-1 {
+    min-height: 30vh;
+    display: none;
+}
+
+.flexbox-item-2 {
+    min-height: 30vh;
+    display: none;
+}
+
+.flexbox-item-3 {
+    min-height: 30vh;
+    display: none;
+}
+
+.flexbox-item-4 {
+    min-height: 30vh;
+    display: none;
+}
+
+.flexbox-item-5 {
+    min-height: 30vh;
+}
+
+.flexbox-item-6 {
+    min-height: 30vh;
+}
+
+.flexbox-item-7 {
+    min-height: 30vh;
+}
+
+.flexbox-item-8 {
+    min-height: 30vh;
+}
+
+.flexbox-item-9 {
+    min-height: 30vh;
+}
+
+.flexbox-item-10 {
+    min-height: 30vh;
+}
+
+.flexbox-item-11 {
+    min-height: 30vh;
+    margin-bottom: 8rem;
+}
+
+.flexbox-item-12 {
+    min-height: 30vh;
+    margin-bottom: 8rem;
+
+}
+
+/* Footer css */
+
+.flexbox-containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.flexbox-itemm {
+    width: 40vw;
+    margin: 0rem;
+}
+
+.flexbox-itemm-0 {
+    min-height: 20vh;
+}
+
+.flexbox-itemm-0 h3 {
+    color: rgb(3, 133, 3);
+    font-size: 3rem;
+    margin-left: 18rem;
+    margin-top: 4rem;
+}
+
+.flexbox-itemm-0 p {
+    color: rgb(90, 92, 94);
+    font-size: 2rem;
+    margin-left: 18rem;
+    margin-top: 2rem;
+}
+
+.flexbox-itemm-1 {
+    min-height: 20vh;
+}
+
+#myemail {
+    width: 20vw;
+    height: 6vh;
+    padding: 1rem 2rem;
+    background-color: rgb(25, 29, 32);
+    border: none;
+    margin-top: 8rem;
+    font-size: 1.3rem;
+}
+
+#sign {
+    width: 6vw;
+    height: 6vh;
+    padding: 1.2rem 0rem 1.1rem 0rem;
+    margin-left: -1rem;
+    background-color: rgb(3, 133, 3);
+    border-radius: 0rem 1rem 1rem 0rem;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.flexbox-itemm-2 {
+    margin-top: 2rem;
+    background-color: rgb(12, 133, 12);
+    width: 75vw;
+    min-height: 0.1vh;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+
+
+.flexbox-itemm-3 {
+    min-height: 10vh;
+    width: 90vw;
+    text-align: center;
+    z-index: 1;
+    color: rgb(3, 133, 3);
+    font-size: 1.8rem;
+}

@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    text-align: left;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    width: 20%;
+    font-family: monospace;
+}
+
+h4 {
+    text-align: center;
+}
+
+#mycode {
+    padding: 4px;
+    border-color: bisque;
+}
+
+p {
+    color: red;
+}
+
+#myfirstname, #mymiddlename, #mylastname, #mylicense {
+    padding-left: 4px;
+    border-color: bisque;
+}
+
+#myorigin, #mystate, #mydob {
+    padding: 4px;
+    border-color: bisque;
+    width: 43%;
+}
+
+#myemail, #myphone, #myusername, #mypwd, #mycpwd {
+    padding: 4px;
+    border-color: bisque;
+    margin-top: 2px;
+}
+
+span {
+    color: red;
+}
+
+#myothers, #mycolor {
+    padding: 3px;
+    border-color: bisque;
+    width: 70px;
+}
+
+#mysubmit {
+    border-color: bisque;
+    background-color: beige;
+    font-weight: bolder;
+}
+
+#mylogin {
+    border-color: bisque;
+    background-color: blueviolet;
+    font-weight: bold;
+    color: black;
+}

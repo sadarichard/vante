@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+.header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.header h1 {
+    border: none;
+    padding: 2rem;
+    color: brown;
+    background-color: yellow;
+    border-radius: 1rem;
+    display: inline-block;
+    width: 60vw;
+    margin: 1rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+h2 {
+    margin-left: 2rem;
+}
+
+.list1,
+.list2,
+.list3 {
+    padding: 1rem;
+    list-style-type: square;
+}

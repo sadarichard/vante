@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.course {
+    border: 1px solid black;
+    color: lightsalmon;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: azure;
+}
+
+.bull {
+    color: orange;
+    background-color: azure;
+    border: 1px solid black;
+    width: 15%;
+    margin-left: 1rem;
+    padding: 1rem;
+}

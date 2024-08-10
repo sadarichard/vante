@@ -1,0 +1,694 @@
+/* DESKTOP SCREEN */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(/quiz.com/bg-pattern-pages.svg);
+    background-color: rgb(229, 217, 166);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15rem 10rem 20rem 20rem;
+    padding: 1rem 10rem 1rem 10rem;
+    gap: 1rem;
+    grid-template-areas: "head head head head"
+                         "nav nav nav nav"
+                         "sec sec sec sec"
+                         "art art art art"
+                         "foot foot foot foot";
+}
+
+header {
+    grid-area: head;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+.head1 img {
+    width: 20%;
+}
+
+.head1 p {
+    background-color: rgb(255, 167, 160);
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50vw;
+    text-align: center;
+}
+
+#pin {
+    border-radius: 2rem;
+    border: 3px solid black;
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: grey;
+    width: 15vw;
+}
+
+.head1 button {
+    background-color: rgb(198, 234, 132);
+    width: 6vw;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.head1 button a {
+    text-decoration: none;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 ul {
+    list-style-type: none;
+}
+
+.nav1 li {
+   float: left;
+}
+
+.nav1 li a {
+    display: block;
+    margin: 4rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(25, 68, 74);
+}
+
+.nav1 li a:hover {
+    text-shadow: 2px 2px 3px black;
+}
+
+section {
+    grid-area: sec;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 2rem;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(128, 128, 128, 0.344);
+}
+
+.sec1 button {
+    border: none;
+    margin-top: 3rem;
+}
+
+.sec1 button a {
+    background-color: rgb(198, 234, 132);
+    width: 6vw;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid black;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 2rem;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(128, 128, 128, 0.344);
+}
+
+.sec2 button {
+    border: none;
+    margin-top: 3rem;
+}
+
+.sec2 button a {
+    background-color: rgb(140, 241, 255);
+    width: 6vw;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid black;
+}
+
+article {
+    grid-area: art; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: rgb(25, 68, 74);
+    border-radius: 2rem;
+}
+
+.art1 {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    width: 50vw;
+}
+
+.art2 {
+    width: 20vw;
+}
+
+.art2 button {
+    background-color: rgb(255, 198, 121);
+    width: 15vw;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid black;
+    font-size: 1.5rem;
+}
+
+footer {
+    grid-area: foot;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 2rem;
+}
+
+.foot2 ul {
+    list-style-type: circle;
+}
+
+.foot2 li {
+   float: left;
+}
+
+.foot2 li a {
+    display: block;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.foot2 li a:hover {
+    text-decoration: underline;
+}
+
+/* TABLET SCREEN */
+@media screen and (max-width: 1100px) {
+    html {
+        font-size: 60%;
+    }
+    
+    .Grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10rem 10rem auto 10rem 20rem;
+        padding: 1rem;
+        grid-template-areas: "head head"
+                             "nav nav"
+                             "sec sec"
+                             "art art"
+                             "foot foot";
+    }
+    
+    header {
+        grid-area: head;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+   .head1 img {
+        width: 30%;
+    }
+    
+    .head1 p {
+        background-color: rgb(255, 167, 160);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 50vw;
+        text-align: center;
+    }
+    
+    #pin {
+        border-radius: 2rem;
+        border: 3px solid black;
+        background-color: white;
+        padding: 1.0rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: grey;
+        width: 20vw;
+    }
+    
+    .head1 button {
+        background-color: rgb(198, 234, 132);
+        width: 25vw;
+        padding: 1.2rem 4rem;
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+    
+    .head1 button a {
+        text-decoration: none;
+    }
+    
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav1 ul {
+        list-style-type: none;
+    }
+    
+    .nav1 li {
+       float: left;
+    }
+    
+    .nav1 li a {
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: rgb(25, 68, 74);
+    }
+    
+    .nav1 li a:hover {
+        text-shadow: 2px 2px 3px black;
+    }
+    
+    section {
+        grid-area: sec;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .sec1 {
+        display: flex;
+        border: none;
+        border-radius: 2rem;
+        width: 100vw;
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: rgba(128, 128, 128, 0.344);
+    }
+    
+    .sec1 button {
+        border: none;
+        margin-top: 3rem;
+    }
+    
+    .sec1 button a {
+        background-color: rgb(198, 234, 132);
+        width: 6vw;
+        padding: 1.2rem;
+        border-radius: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: 3px solid black;
+    }
+    
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 2rem;
+        width: 100vw;
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: rgba(128, 128, 128, 0.344);
+    }
+    
+    .sec2 button {
+        border: none;
+        margin-top: 3rem;
+    }
+    
+    .sec2 button a {
+        background-color: rgb(140, 241, 255);
+        width: 6vw;
+        padding: 1.2rem;
+        border-radius: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: 3px solid black;
+    }
+    
+    article {
+        grid-area: art; 
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem;
+        gap: 2rem;
+        background-color: rgb(25, 68, 74);
+        border-radius: 2rem;
+    }
+    
+    .art1 {
+        display: flex;
+        text-align: center;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.8rem;
+        color: white;
+        width: 50vw;
+    }
+    
+    .art2 {
+        width: 20vw;
+    }
+    
+    .art2 button {
+        background-color: rgb(255, 198, 121);
+        width: 35vw;
+        padding: 1.5rem;
+        border-radius: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: 3px solid black;
+        font-size: 1.5rem;
+    }
+    
+    footer {
+        grid-area: foot;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        border-radius: 2rem;
+    }
+
+    .foot1 img {
+        width: 40%;
+    }
+    
+    .foot2 ul {
+        list-style-type: circle;
+    }
+    
+    .foot2 li {
+       float: left;
+    }
+    
+    .foot2 li a {
+        display: block;
+        margin-top: 1rem;
+        padding-right: 2rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+    .foot2 li a:hover {
+        text-decoration: underline;
+    }
+   
+}
+
+/* MOBILE SCREEN */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .Grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10rem 10rem auto 10rem 20rem;
+        padding: 1rem;
+        grid-template-areas: "head head"
+                             "nav nav"
+                             "sec sec"
+                             "art art"
+                             "foot foot";
+    }
+    
+    header {
+        grid-area: head;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+   .head1 img {
+        width: 63vw;
+    }
+    
+    .head1 p {
+        display: none;
+        background-color: rgb(255, 167, 160);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 70vw;
+        text-align: center;
+    }
+    
+    #pin {
+        border-radius: 2rem;
+        border: 3px solid black;
+        background-color: white;
+        padding: 1.0rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: grey;
+        width: 20vw;
+    }
+    
+    .head1 button {
+        background-color: rgb(198, 234, 132);
+        width: 25vw;
+        padding: 1.2rem 4rem;
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+    
+    .head1 button a {
+        text-decoration: none;
+    }
+    
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav1 ul {
+        list-style-type: none;
+    }
+    
+    .nav1 li {
+       float: left;
+    }
+    
+    .nav1 li a {
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: rgb(25, 68, 74);
+    }
+    
+    .nav1 li a:hover {
+        text-shadow: 2px 2px 3px black;
+    }
+    
+    section {
+        grid-area: sec;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .sec1 {
+        display: flex;
+        border: none;
+        border-radius: 2rem;
+        width: 100vw;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: rgba(128, 128, 128, 0.344);
+    }
+    
+    .sec1 button {
+        border: none;
+        margin-top: 3rem;
+    }
+    
+    .sec1 button a {
+        background-color: rgb(198, 234, 132);
+        width: 6vw;
+        padding: 1.2rem;
+        border-radius: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: 3px solid black;
+    }
+    
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 2rem;
+        width: 100vw;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: rgba(128, 128, 128, 0.344);
+    }
+    
+    .sec2 button {
+        border: none;
+        margin-top: 3rem;
+    }
+    
+    .sec2 button a {
+        background-color: rgb(140, 241, 255);
+        width: 6vw;
+        padding: 1.2rem;
+        border-radius: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: 3px solid black;
+    }
+    
+    article {
+        grid-area: art; 
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem;
+        gap: 2rem;
+        background-color: rgb(25, 68, 74);
+        border-radius: 2rem;
+    }
+    
+    .art1 {
+        display: flex;
+        text-align: center;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.8rem;
+        color: white;
+        width: 50vw;
+    }
+    
+    .art2 {
+        width: 20vw;
+    }
+    
+    .art2 button {
+        background-color: rgb(255, 198, 121);
+        width: 35vw;
+        padding: 1.5rem;
+        border-radius: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: 3px solid black;
+        font-size: 1.5rem;
+    }
+    
+    footer {
+        grid-area: foot;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        border-radius: 2rem;
+    }
+
+    .foot1 img {
+        width: 40%;
+    }
+    
+    .foot2 ul {
+        list-style-type: circle;
+    }
+    
+    .foot2 li {
+       float: left;
+    }
+    
+    .foot2 li a {
+        display: block;
+        margin-top: 1rem;
+        padding-right: 2rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+    .foot2 li a:hover {
+        text-decoration: underline;
+    }
+   
+}

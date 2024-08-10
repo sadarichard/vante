@@ -1,0 +1,653 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Header CSS */
+#header {
+    position: fixed;
+    z-index: 3;
+}
+
+.head {
+    position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(52, 58, 64);
+    font-size: 1.5rem;
+} 
+
+.headspan {
+    color: rgb(3, 133, 3);
+}
+
+.head1 ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 1.9rem 2rem 0rem 2rem;
+    margin-left: 15rem;
+}
+
+.head1 li {
+    float: left;
+}
+
+.head1 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-right: 2rem;
+}
+
+.head2 {
+    position: absolute;
+    top: 1.9vh;
+    right: 5vw;
+}
+
+.head2 img {
+    width: 1.5vw;
+}
+
+.head2 ul {
+    list-style-type: none;
+}
+
+.head2 li {
+    float: left;
+    padding-right: 1rem;
+}
+
+/* Navbar CSS */
+#nav {
+    position: fixed;
+    z-index: 3;
+}
+
+.navbar {
+    position: absolute;
+    top: 6vh;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.navbar1 img {
+    width: 9vw;
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+
+.navbar2 {
+    position: absolute;
+    top: 2vh;
+    left: 15vw;
+}
+
+.navbar2 ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 1.9rem 2rem 0rem 2rem;
+    margin-left: 20rem;
+}
+
+.navbar2 li {
+    float: left;
+}
+
+.navbar2 a {
+    color: rgba(0, 0, 0, 0.64);
+    text-decoration: none;
+    display: block;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+
+/* Section 1 */
+#section1 {
+    position: relative;
+}
+
+.sec1 {
+    position: absolute;
+    top: 16vh;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.5rem;
+    background-color: white;
+    z-index: 1;
+}
+
+.line {
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+    width: 6vw;
+    height: 0.3vh;
+    background-color: rgb(3, 133, 3);
+    z-index: 1;
+
+}
+
+.sec1a {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+}
+
+.sec1a img {
+    width: 60vw;
+    height: 100vh;
+}
+
+.sec1b {
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+    z-index: 2;
+}
+
+.sec1b h1 {
+    font-size: 4.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    line-height: 6rem;
+}
+
+.sec1b p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    font-weight: lighter;
+    line-height: 3rem;
+}
+
+.sec1b a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem 6rem;
+    border-radius: 1rem;
+    background-color: rgb(3, 133, 3);
+}
+
+.sec1c {
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+}
+
+.sec1c img {
+    width: 40vw;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.182);
+}
+
+/* Section2 css */
+#section2 {
+    position: relative;
+}
+
+.sec2 {
+    position: absolute;
+    top: 101vh;
+    width: 100vw;
+    height: 140vh;
+    font-size: 1.5rem;
+    background-color: rgb(0, 166, 80);
+    z-index: 1;
+}
+
+.sec2a {
+    position: absolute;
+    top: 25vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.sec2a h2 {
+    color: white;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+.sec2a p {
+    color: rgb(182, 230, 205);
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-top: 1rem;
+    font-weight: lighter;
+}
+
+.sec2b {
+    position: absolute;
+    top: 60vh;
+    width: 50vw;
+    text-align: center;
+}
+
+.sec2b h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sec2b p {
+    color: rgb(182, 230, 205);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.sec2c {
+    position: absolute;
+    top: 60vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.sec2c h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sec2c p {
+    color: rgb(182, 230, 205);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.sec2d {
+    position: absolute;
+    top: 60vh;
+    width: 150vw;
+    text-align: center;
+}
+
+.sec2d h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sec2d p {
+    color: rgb(182, 230, 205);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.sec2e {
+    position: absolute;
+    top: 88vh;
+    left: 20vw;
+}
+
+.sec2e img {
+    width: 60vw;
+}
+
+/* Section3 css */
+#section3 {
+    position: relative;
+}
+
+.sec3 {
+    position: absolute;
+    top: 241vh;
+    width: 100vw;
+    height: 115vh;
+    font-size: 1.5rem;
+    background-color: white;
+    z-index: 1;
+}
+
+.sec3a {
+    position: absolute;
+    top: 25vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.sec3a h2 {
+    color: black;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+.sec3a p {
+    color: rgba(0, 0, 0, 0.456);
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-top: 3rem;
+    font-weight: lighter;
+}
+
+.sec3b {
+    position: absolute;
+    top: 63vh;
+    left: 25vw;
+    width: 50vw;
+    height: 0.1vh;
+    background-color: rgb(3, 133, 3);
+    z-index: 1;
+}
+
+.sec3c {
+    position: absolute;
+    top: 70vh;
+    left: 20vw;
+    width: 20vw;
+    height: 40vh;
+    background-color: rgb(3, 18, 65);
+}
+
+.sec3c p {
+    color: white;
+    margin-left: 0.4vw;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sec3c ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.sec3c li {
+    color: green;
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+}
+
+.sec3d {
+    position: absolute;
+    top: 70vh;
+    left: 40vw;
+    width: 20vw;
+    height: 40vh;
+}
+
+.sec3d img {
+    width: 40vw;
+    height: 40vh;
+}
+
+/* Section4 css */
+#section4 {
+    position: relative;
+}
+
+.sec4 {
+    position: absolute;
+    top: 356vh;
+    width: 100vw;
+    height: 230vh;
+    font-size: 1.5rem;
+    background-color: rgb(242, 242, 242);
+    z-index: 1;
+}
+
+.sec4x {
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.sec4x h2 {
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.807);
+}
+
+.sec4x p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.456);
+}
+
+.sec4a {
+    position: absolute;
+    top: 33vh;
+    left: 12.5vw;
+    z-index: 1;
+}
+
+.sec4a img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4b {
+    position: absolute;
+    top: 33vh;
+    right: 12.5vw;
+    z-index: 1;
+}
+
+.sec4b img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4c {
+    position: absolute;
+    top: 65vh;
+    left: 12.5vw;
+    z-index: 1;
+}
+
+.sec4c img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4d {
+    position: absolute;
+    top: 65vh;
+    right: 12.5vw;
+    z-index: 1;
+}
+
+.sec4d img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4e {
+    position: absolute;
+    top: 97vh;
+    left: 12.5vw;
+    z-index: 1;
+}
+
+.sec4e img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4f {
+    position: absolute;
+    top: 97vh;
+    right: 12.5vw;
+    z-index: 1;
+}
+
+.sec4f img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4g {
+    position: absolute;
+    top: 129vh;
+    left: 12.5vw;
+    z-index: 1;
+}
+
+.sec4g img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4h {
+    position: absolute;
+    top: 129vh;
+    right: 12.5vw;
+    z-index: 1;
+}
+
+.sec4h img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4i {
+    position: absolute;
+    top: 161vh;
+    left: 12.5vw;
+    z-index: 1;
+}
+
+.sec4i img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4j {
+    position: absolute;
+    top: 161vh;
+    right: 12.5vw;
+    z-index: 1;
+}
+
+.sec4j img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4k {
+    position: absolute;
+    top: 193vh;
+    left: 12.5vw;
+    z-index: 1;
+}
+
+.sec4k img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.sec4l {
+    position: absolute;
+    top: 193vh;
+    right: 12.5vw;
+    z-index: 1;
+}
+
+.sec4l img {
+    width: 35vw;
+    height: 30vh;
+}
+
+/* Footer css */
+#footer {
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    top: 585vh;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(18, 22, 25);
+    z-index: 1;
+}
+
+.foot1 {
+    position: absolute;
+    top: 10vh;
+    left: 12.5vw;
+    z-index: 1;
+}
+
+.foot1 h3 {
+    color: rgb(3, 133, 3);
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.foot1 p {
+    color: rgb(90, 92, 94);
+    font-size: 2rem;
+}
+
+.foot2 {
+    position: absolute;
+    top: 16vh;
+    left: 40vw;
+    z-index: 1;
+}
+
+#myemail {
+    width: 30vw;
+    padding: 2.5rem 2rem;
+    background-color: rgb(25, 29, 32);
+    border: none;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+#sign {
+    position: absolute;
+    top: 0.2vh;
+    right: -7vw;
+    width: 8vw;
+    height: 6.9vh;
+    padding: 2.2rem 1.5rem;
+    background-color: rgb(3, 133, 3);
+    border: none;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.foot3 {
+    position: absolute;
+    top: 35vh;
+    left: 12.5vw;
+    width: 75vw;
+    height: 0.1vh;
+    background-color: rgb(3, 133, 3);
+    z-index: 1;
+}
+
+.foot4 {
+    position: absolute;
+    top: 40vh;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+    color: rgb(3, 133, 3);
+    font-size: 2rem;
+}

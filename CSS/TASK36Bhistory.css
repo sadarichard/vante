@@ -1,0 +1,552 @@
+/* DESKTOP SCREEN */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(/quiz.com/bg-pattern-pages.svg);
+    background-color: rgb(229, 217, 166);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10rem 10rem auto 20rem;
+    padding: 1rem 10rem 1rem 10rem;
+    gap: 1rem;
+    grid-template-areas: "head head head head"
+                         "nav nav nav nav"
+                         "main main main main"
+                         "foot foot foot foot";
+}
+
+header {
+    grid-area: head;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+.head1 img {
+    width: 30%;
+}
+
+.head1 p {
+    background-color: rgb(255, 167, 160);
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50vw;
+    text-align: center;
+}
+
+#pin {
+    border-radius: 2rem;
+    border: 3px solid black;
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: grey;
+    width: 15vw;
+}
+
+.head1 button {
+    background-color: rgb(198, 234, 132);
+    width: 6vw;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.head1 button a {
+    text-decoration: none;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 ul {
+    list-style-type: none;
+}
+
+.nav1 li {
+   float: left;
+}
+
+.nav1 li a {
+    display: block;
+    margin: 4rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(25, 68, 74);
+}
+
+.nav1 li a:hover {
+    text-shadow: 2px 2px 3px black;
+}
+
+main {
+    grid-area: main;
+    font-size: 1.7rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(171, 253, 215, 0.607);
+}
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main1a {
+    width: 90vw;
+    height: 5vh;
+    text-align: center;
+}
+
+.main1b {
+    width: 30vw;
+    height: 40vh;
+}
+
+.main1c {
+    width: 30vw;
+    height: 40vh;
+}
+
+.main1d {
+    width: 40vw;
+    height: 20vh;
+}
+
+.main1e {
+    width: 50vw;
+    height: 5vh;
+    text-align: center;
+}
+
+.main1e button {
+    background-color: rgb(198, 234, 132);
+    width: 10vw;
+    padding: 1.2rem 4rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    grid-area: foot;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 2rem;
+}
+
+.foot2 ul {
+    list-style-type: circle;
+}
+
+.foot2 li {
+   float: left;
+}
+
+.foot2 li a {
+    display: block;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.foot2 li a:hover {
+    text-decoration: underline;
+}
+
+/* TABLET SCREEN */
+@media screen and (max-width: 1100px) {
+    html {
+        font-size: 60%;
+    }
+    
+    .Grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10rem 10rem auto 20rem;
+        padding: 1rem;
+        grid-template-areas: "head head"
+                             "nav nav"
+                             "main main"
+                             "foot foot";
+    }
+    
+    header {
+        grid-area: head;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+   .head1 img {
+        width: 30vw;
+    }
+    
+    .head1 p {
+        background-color: rgb(255, 167, 160);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 40vw;
+        text-align: center;
+    }
+    
+    #pin {
+        border-radius: 2rem;
+        border: 3px solid black;
+        background-color: white;
+        padding: 1.0rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: grey;
+        width: 20vw;
+    }
+    
+    .head1 button {
+        background-color: rgb(198, 234, 132);
+        width: 15vw;
+        padding: 1rem 4rem;
+        border-radius: 2rem;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    
+    .head1 button a {
+        text-decoration: none;
+    }
+    
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav1 ul {
+        list-style-type: none;
+    }
+    
+    .nav1 li {
+       float: left;
+    }
+    
+    .nav1 li a {
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: rgb(25, 68, 74);
+    }
+    
+    .nav1 li a:hover {
+        text-shadow: 2px 2px 3px black;
+    }
+
+    main {
+        grid-area: main;
+        font-size: 1.7rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: rgba(171, 253, 215, 0.607);
+    }
+
+    .main1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .main1a {
+        width: 90vw;
+        height: 5vh;
+        text-align: center;
+    }
+    
+    .main1b {
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .main1c {
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .main1d {
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .main1e {
+        width: 50vw;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .main1e button {
+        background-color: rgb(198, 234, 132);
+        width: 25vw;
+        padding: 1.2rem 4rem;
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+  
+    footer {
+        grid-area: foot;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        border-radius: 2rem;
+    }
+
+    .foot1 img {
+        width: 40%;
+    }
+    
+    .foot2 ul {
+        list-style-type: circle;
+    }
+    
+    .foot2 li {
+       float: left;
+    }
+    
+    .foot2 li a {
+        display: block;
+        margin-top: 1rem;
+        padding-right: 2rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+    .foot2 li a:hover {
+        text-decoration: underline;
+    }
+   
+}
+
+/* MOBILE SCREEN */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .Grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10rem 10rem auto 20rem;
+        padding: 1rem;
+        grid-template-areas: "head head"
+                             "nav nav"
+                             "main main"
+                             "foot foot";
+    }
+    
+    header {
+        grid-area: head;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+   .head1 img {
+        width: 63vw;
+    }
+    
+    .head1 p {
+        display: none;
+        background-color: rgb(255, 167, 160);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 70vw;
+        text-align: center;
+    }
+    
+    #pin {
+        border-radius: 2rem;
+        border: 3px solid black;
+        background-color: white;
+        padding: 1.0rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: grey;
+        width: 20vw;
+    }
+    
+    .head1 button {
+        background-color: rgb(198, 234, 132);
+        width: 25vw;
+        padding: 1.2rem 4rem;
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+    
+    .head1 button a {
+        text-decoration: none;
+    }
+    
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav1 ul {
+        list-style-type: none;
+    }
+    
+    .nav1 li {
+       float: left;
+    }
+    
+    .nav1 li a {
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: rgb(25, 68, 74);
+    }
+    
+    .nav1 li a:hover {
+        text-shadow: 2px 2px 3px black;
+    }
+
+    main {
+        grid-area: main;
+        font-size: 2rem;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: rgba(171, 253, 215, 0.607);
+    }
+
+    .main1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .main1a {
+        width: 90vw;
+        height: 5vh;
+        text-align: center;
+    }
+    
+    .main1b {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .main1c {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .main1d {
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .main1e {
+        width: 100vw;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .main1e button {
+        background-color: rgb(198, 234, 132);
+        width: 25vw;
+        padding: 1.2rem 4rem;
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+  
+    footer {
+        grid-area: foot;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        border-radius: 2rem;
+    }
+
+    .foot1 img {
+        width: 40%;
+    }
+    
+    .foot2 ul {
+        list-style-type: circle;
+    }
+    
+    .foot2 li {
+       float: left;
+    }
+    
+    .foot2 li a {
+        display: block;
+        margin-top: 1rem;
+        padding-right: 2rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+    .foot2 li a:hover {
+        text-decoration: underline;
+    }
+   
+}

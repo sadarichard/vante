@@ -1,0 +1,963 @@
+/* DESKTOP VERSION */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    min-height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.flex {
+    width: 100vw;
+    height: 10vh;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head1 {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+.head2 {
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2rem;
+} 
+
+.head3 {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(2, 93, 42);
+    font-weight: bold;
+}
+
+.head4 {
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(172, 149, 16);
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav {
+    background-color: rgb(2, 93, 42);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px rgb(172, 149, 16);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    width: 10vw;
+    text-decoration: none;
+    padding-right: 5rem;
+    font-size: 1.5rem;
+    color: white;
+    width: 10vw;
+}
+
+.nav li a:hover {
+    color: black;
+}
+
+button {
+    margin-right: 5rem;
+    display: block;
+    padding: 1rem 2rem;
+    background-color: rgb(172, 149, 16);
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.section1 {
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/ACPN/pexels-readymade-3850674.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    font-size: 1.5rem;
+}
+
+form {
+    width: 50rem;
+    height: 83vh;
+    background-color: white;
+    color: rgb(2, 93, 42);
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+form h1 {
+    text-align: center;
+    color: rgb(172, 149, 16);
+    padding: 3rem 0rem
+}
+
+#pcn {
+    width: 10rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-right: 1rem;
+}
+
+#surname {
+    width: 28rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-bottom: 3rem;
+}
+
+#other {
+    width: 23rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-right: 1rem;
+}
+
+#state {
+    width: 15rem;
+    padding: 0.9rem;
+    font-size: 1.3rem;
+    border: 1px solid rgb(2, 93, 42);
+    margin-bottom: 3rem;
+}
+
+#email {
+    width: 15rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+
+#pharmacy {
+    width: 23rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-bottom: 3rem;
+}
+
+#addr {
+    width: 39.5rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-bottom: 3rem;
+}
+
+#phone {
+    width: 19rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+
+#phonew {
+    width: 19rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid rgb(2, 93, 42);
+    margin-bottom: 3rem;
+}
+
+#but {
+    margin-top: 2rem;
+}
+
+.foot {
+    background-color: rgb(2, 93, 42);
+    color: white;
+    border: 1px solid rgb(2, 93, 42);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.foot1 {
+    width: 25vw;
+    height: 40vh;
+    gap: 4rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+
+.foot1 img {
+    width: 50%;
+}
+
+.foot2 {
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.foot2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.foot2 a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 5rem;
+}
+
+.foot2 a:hover {
+    text-decoration: underline;
+    color: rgb(172, 149, 16);
+}
+
+.foot3 {
+    width: 100vw;
+    height: 0.5px;
+    background-color: rgb(172, 149, 16);
+}
+
+.foot4 {
+    width: 100vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+span {
+    color: rgb(172, 149, 16);
+}
+
+/* TABLET VERSION */
+
+@media screen and (max-width: 1100px) {   
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    html {
+        font-size: 60%;
+    }
+
+    .container {
+        min-height: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .flex {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+    }
+
+    .head1 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    } 
+
+    .head2 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 2rem;
+    } 
+
+    .head3 {
+        width: 30vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(2, 93, 42);
+        font-weight: bold;
+        display: none;
+    }
+
+    .head4 {
+        width: 55vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(172, 149, 16);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav {
+        background-color: rgb(2, 93, 42);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 5px 1px rgb(172, 149, 16);
+        padding: 1rem;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        width: 10vw;
+        text-decoration: none;
+        padding-right: 3rem;
+        font-size: 1.5rem;
+        color: white;
+        width: 10vw;
+    }
+
+    .nav li a:hover {
+        color: black;
+    }
+
+    button {
+        margin-right: 3rem;
+        display: block;
+        padding: 1rem 1rem;
+        background-color: rgb(172, 149, 16);
+        border: none;
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    button:hover {
+        background-color: grey;
+    }
+
+    .section1 {
+        height: 130vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/ACPN/pexels-readymade-3850674.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: cover;
+        font-size: 1.5rem;
+    }
+    
+    form {
+        width: 51rem;
+        height: 85vh;
+        background-color: white;
+        color: rgb(2, 93, 42);
+        padding: 5rem;
+        border-radius: 2rem;
+    }
+    
+    form h1 {
+        text-align: center;
+        color: rgb(172, 149, 16);
+        padding: 3rem 0rem
+    }
+    
+    #pcn {
+        width: 15rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-right: 1rem;
+    }
+    
+    #surname {
+        width: 24rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #other {
+        width: 24rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-right: 1rem;
+    }
+    
+    #state {
+        width: 15rem;
+        padding: 0.9rem;
+        font-size: 1.3rem;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #email {
+        width: 15rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+        margin-right: 1rem;
+    }
+    
+    #pharmacy {
+        width: 24rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #addr {
+        width: 40.5rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #phone {
+        width: 19rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+        margin-right: 1rem;
+    }
+    
+    #phonew {
+        width: 20rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #but {
+        margin-top: 3rem;
+        width: 20vw;
+    }
+    
+    .foot {
+        background-color: rgb(2, 93, 42);
+        color: white;
+        border: 1px solid rgb(2, 93, 42);
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .foot1 {
+        width: 55vw;
+        height: 40vh;
+        gap: 4rem;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        color: white;
+    }
+
+    .foot1 p {
+        line-height: 2.5rem;
+    }
+
+    .foot1 img {
+        width: 50%;
+    }
+
+    .foot2 {
+        width: 25vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+
+    .foot2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .foot2 a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        padding-right: 5rem;
+    }
+
+    .foot2 a:hover {
+        text-decoration: underline;
+        color: rgb(172, 149, 16);
+    }
+
+    .foot3 {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgb(172, 149, 16);
+    }
+
+    .foot4 {
+        width: 100vw;
+        height: 5vh;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    span {
+        color: rgb(172, 149, 16);
+    }
+}
+/* MOBILE VERSION */
+
+@media screen and (max-width: 600px) {   
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        min-height: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .flex {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+    }
+
+    .head1 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    } 
+
+    .head2 {
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 2rem;
+    } 
+
+    .head3 {
+        width: 30vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(2, 93, 42);
+        font-weight: bold;
+        display: none;
+    }
+
+    .head4 {
+        width: 55vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.3rem;
+        color: rgb(172, 149, 16);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav {
+        background-color: rgb(2, 93, 42);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 5px 1px rgb(172, 149, 16);
+        padding: 1rem;
+        display: none;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        width: 10vw;
+        text-decoration: none;
+        padding-right: 3rem;
+        font-size: 1.5rem;
+        color: white;
+        width: 10vw;
+    }
+
+    .nav li a:hover {
+        color: black;
+    }
+
+    button {
+        margin-right: 3rem;
+        display: block;
+        padding: 1rem 1rem;
+        background-color: rgb(172, 149, 16);
+        border: none;
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    button:hover {
+        background-color: grey;
+    }
+
+    .section1 {
+        height: 130vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/ACPN/pexels-readymade-3850674.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: cover;
+        font-size: 1.5rem;
+    }
+    
+    form {
+        width: 80vw;
+        height: 70vh;
+        background-color: white;
+        color: rgb(2, 93, 42);
+        padding: 5rem;
+        border-radius: 2rem;
+    }
+    
+    form h1 {
+        text-align: center;
+        color: rgb(172, 149, 16);
+        padding: 3rem 0rem
+    }
+    
+    #pcn {
+        width: 20vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-right: 1rem;
+    }
+    
+    #surname {
+        width: 42vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #other {
+        width: 30vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-right: 1rem;
+    }
+    
+    #state {
+        width: 32vw;
+        padding: 0.9rem;
+        font-size: 1.3rem;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #email {
+        width: 30vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+        margin-right: 1rem;
+    }
+    
+    #pharmacy {
+        width: 32vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #addr {
+        width: 64vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #phone {
+        width: 31vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+        margin-right: 1rem;
+    }
+    
+    #phonew {
+        width: 31vw;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid rgb(2, 93, 42);
+        margin-bottom: 3rem;
+    }
+    
+    #but {
+        margin-top: 3rem;
+        width: 20vw;
+    }
+    
+    .foot {
+        background-color: rgb(2, 93, 42);
+        color: white;
+        border: 1px solid rgb(2, 93, 42);
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .foot1 {
+        width: 55vw;
+        height: 40vh;
+        gap: 4rem;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        color: white;
+    }
+
+    .foot1 img {
+        width: 50%;
+    }
+
+    .foot2 {
+        width: 25vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+
+    .foot2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .foot2 a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        padding-right: 5rem;
+    }
+
+    .foot2 a:hover {
+        text-decoration: underline;
+        color: rgb(172, 149, 16);
+    }
+
+    .foot3 {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgb(172, 149, 16);
+    }
+
+    .foot4 {
+        width: 100vw;
+        height: 5vh;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    span {
+        color: rgb(172, 149, 16);
+    }
+}

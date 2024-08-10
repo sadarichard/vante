@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.head {
+    width: 30vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo img {
+    margin: 1rem;
+    width: 15vw;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 5;
+    min-height: 8vh;
+    list-style-type: none;
+}
+
+.list a {
+    padding-left: 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(4, 4, 59);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://www.novartis.com/themes/custom/polaris/patterns/images/hero-banner/c-coral/Hero-banner-varations-c-1920-coral.svg);
+    background-size: cover;
+    background-position: 15%;
+}
+
+.sec1 {
+    width: 33vw;
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 90vh;
+    text-align: left;
+    color: white;
+}
+
+.first h1 {
+    font-size: 3.5rem;
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.first p {
+    margin-left: 5rem;
+    font-size: 1.8rem;
+}
+
+.second {
+    width: 67vw;
+    min-height: 90vh;
+    z-index: -1;
+    background-image: url(https://www.novartis.com/sites/novartiscom/files/styles/polaris_banner_image_tablet/public/2023-11/grandmother-mother-and-daughter-smilling-and-laughing-on-beach.jpg.webp?itok=aTgmNsql);
+    background-size: cover;
+    background-position: right;
+}
+
+.second img {
+    width: 100%;
+    height: 100%;
+}

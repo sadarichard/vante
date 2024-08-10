@@ -1,0 +1,2697 @@
+/* DESKTOP VERSION */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    height: 10vh;
+    flex: 100%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px -1px green;
+    z-index: 1;
+}
+
+.head1 {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1 img {
+    margin: auto;
+    width: 70%;
+    transition: width 2s;
+}
+
+.head1 img:hover {
+    width: 100%;
+}
+
+.head2 {
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbtn {
+    min-width: 7vw;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.dropbtn a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropbtn a:hover {
+    color: grey;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn1 {
+    min-width: 7vw;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.dropbtn1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    text-align: center;
+    min-width: 100%;
+    font-size: 1.3rem;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn1 a:hover {
+    color: grey;
+}
+
+.dropdown-content1 a:hover {
+    background-color: blanchedalmond;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn2 {
+    min-width: 7vw;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.dropbtn2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    text-align: center;
+    min-width: 100%;
+    font-size: 1.3rem;
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn2 a:hover {
+    color: grey;
+}
+
+.dropdown-content2 a:hover {
+    background-color: blanchedalmond;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn3 {
+    min-width: 7vw;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.dropbtn3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    text-align: center;
+    min-width: 100%;
+    font-size: 1.3rem;
+}
+
+.dropdown-content3 a {
+    color: black;
+    padding: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn3 a:hover {
+    color: grey;
+}
+
+.dropdown-content3 a:hover {
+    background-color: blanchedalmond;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown4 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn4 {
+    min-width: 7vw;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.dropbtn4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    text-align: center;
+    min-width: 100%;
+    font-size: 1.3rem;
+}
+
+.dropdown-content4 a {
+    color: black;
+    padding: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn4 a:hover {
+    color: grey;
+}
+
+.dropdown-content4 a:hover {
+    background-color: blanchedalmond;
+}
+
+.dropdown4:hover .dropdown-content4 {
+    display: block;
+}
+
+.dropdown5 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn5 {
+    min-width: 7vw;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.dropbtn5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    text-align: center;
+    min-width: 100%;
+    font-size: 1.3rem;
+}
+
+.dropdown-content5 a {
+    color: black;
+    padding: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn5 a:hover {
+    color: grey;
+}
+
+.dropdown-content5 a:hover {
+    background-color: blanchedalmond;
+}
+
+.dropdown5:hover .dropdown-content5 {
+    display: block;
+}
+
+.dropdown6 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn6 {
+    min-width: 7vw;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: green;
+    font-weight: bold;
+    border: none;
+}
+
+.dropbtn6 a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content6 {
+    background-color: grey;
+    font-size: 1.3rem;
+    text-align: center;
+    min-width: 100%;
+    position: absolute;
+    display: none;
+}
+
+.dropdown-content6 a {
+    color: black;
+    padding: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content6 a:hover {
+    background-color: blanchedalmond;
+}
+
+.dropdown6:hover .dropdown-content6 {
+    display: block;
+}
+
+.head3 {
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head3 img {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    transition: width 2s, transform 2s;
+}
+
+.head3 img:hover {
+    transform: rotate(360deg);
+}
+
+.section1 {
+    height: 100vh;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/GKS/pexels-tima-miroshnichenko-5206051.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: width 2s ease;
+}
+
+.sec1:hover {
+    width: 120vw;
+
+}
+
+.sec1 h1 {
+    width: 100vw;
+    height: 10vh;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px green;
+}
+
+.section2 {
+    min-height: 140vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.sec2a {
+    width: 30vw;
+    height: 50vh;
+    background-image: url(/GKS/photo-1529511582893-2d7e684dd128.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec2 {
+    background-color: rgba(7, 1, 1, 0.576);
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5rem;
+    gap: 1rem;
+}
+
+.sec2 h2 {
+    width: 3vw;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.sec2 p {
+    color: white;
+    font-size: 2rem;
+}
+
+.sec2b {
+    width: 60vw;
+    height: 50vh;
+    background-color: rgba(255, 217, 0, 0.324);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2b1 {
+    background-color: beige;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+
+.sec2b1 p {
+    font-size: 1.2rem;
+}
+
+.sec2c video {
+    width: 70vw;
+    border-radius: 1rem;
+}
+
+.section3 {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.sec {
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: rgba(245, 245, 220, 0.389);
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.sec h2 {
+    text-shadow: 2px 2px 1px green;
+}
+
+.sec p {
+    color: green;
+}
+
+.sec3a {
+    flex: 100%;
+    height: 10vh;
+    background-color: white;
+    font-size: 2rem;
+}
+
+.sec3e {
+    flex: 50%;
+    margin: 0rem 8rem;
+}
+
+.section4 {
+    background-image: linear-gradient(rgba(245, 245, 220, 0.448), rgba(255, 192, 203, 0.275));
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.secc {
+    width: 30vw;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.sec4a img {
+    width: 25vw;
+    height: 33.33vh;
+    border-radius: 1rem;
+}
+
+.sec4b img {
+    width: 25vw;
+    height: 33.33vh;
+    border-radius: 1rem;
+}
+
+.section5 {
+    min-height: 130vh;
+    background-image: url(/GKS/Choir.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 3rem 0rem;
+}
+
+.sed {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.643);
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 3rem;
+}
+
+.sec5a h3 {
+    text-align: center;
+    text-shadow: 2px 2px 2px green;
+}
+
+.sec5a h4 {
+    width: 5vw;
+    height: 7vh;
+    position: relative;
+    background-color: brown;
+    animation: gksyf 5s ease 2s infinite normal both;
+}
+
+@keyframes gksyf {
+    0% {background-color: brown; left: -10rem; top: 0rem;}
+    25% {background-color: blue; left: 10rem; top: 0rem;}
+    50% {background-color: green; left: 10rem; top: 20rem;}
+    75% {background-color: black; left: -10rem; top: 20rem;}
+    100% {background-color: brown; left: -10rem; top: 0rem;}
+}
+
+
+.section6 {
+    min-height: 200vh;
+    background-color: rgba(0, 0, 0, 0.046);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 5rem;
+    margin: 3rem 0rem;
+}
+
+.see {
+    width: 19vw;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+
+.sec6 {
+    font-size: 2rem;
+    color: green;
+    text-shadow: 2px 2px 3px black;
+}
+
+p {
+    color: green;
+}
+
+p:hover {
+    color: black;
+}
+
+.sec6a {
+    height: 40vh;
+    gap: 1rem;
+    flex: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6a1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/Sada1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: 52% 15%;
+}
+
+.sec6b {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6b1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/Ediri.jpeg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 45% 30%;
+}
+
+.sec6c {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6c1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.39.15\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 45% 30%;
+}
+
+.sec6d {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6d1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/Omiklose.jpeg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 45% 30%;
+}
+
+.sec6e {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6e1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/Great.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 40% 15%;
+}
+
+.sec6f {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6f1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.47.30\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 45% 30%;
+}
+
+.sec6g {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6g1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/Baz.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 45% 30%;
+}
+
+.sec6h {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6h1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.46.47\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 45% 30%;
+}
+
+.sec6i {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6i1 {
+    width: 19vw;
+    height: 30vh;
+    background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.38.27\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 45% 30%;
+}
+
+.sec6j {
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6j1 {
+    width: 19vw;
+    height: 30vh;
+    border: 1px solid blue;
+    background-image: url(/GKS/);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 45% 30%;
+}
+
+.foot {
+    height: 45vh;
+    background-color: rgb(2, 93, 42);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+}
+
+.fo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.foot1 {
+    width: 100vw;
+}
+
+.foot1 h4 {
+    color: green;
+    text-shadow: 2px 2px 3px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.foot2 {
+    width: 100vw;
+    font-weight: bold;
+}
+
+.foot3 {
+    width: 100vw;
+}
+
+.foot3 h4 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px green;
+}
+
+.foot4 {
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.foot5 {
+    color: beige;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.foot6 {
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+}
+
+.foot6 img {
+    width: 70%;
+}
+
+/* TABLET VERSION */
+
+@media screen and (max-width: 1100px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    html {
+        font-size: 60%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        height: 10vh;
+        flex: 100%;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 2px 2px 10px -1px green;
+        z-index: 1;
+    }
+
+    .head1 {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head1 img {
+        margin: auto;
+        width: 70%;
+        transition: width 2s;
+    }
+
+    .head1 img:hover {
+        width: 100%;
+    }
+
+    .head2 {
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .dropbtn {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropbtn a:hover {
+        color: grey;
+    }
+
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn1 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content1 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn1 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content1 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown1:hover .dropdown-content1 {
+        display: block;
+    }
+
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn2 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content2 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content2 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn2 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content2 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown2:hover .dropdown-content2 {
+        display: block;
+    }
+
+    .dropdown3 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn3 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn3 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content3 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content3 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn3 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content3 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown3:hover .dropdown-content3 {
+        display: block;
+    }
+
+    .dropdown4 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn4 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn4 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content4 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content4 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn4 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content4 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown4:hover .dropdown-content4 {
+        display: block;
+    }
+
+    .dropdown5 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn5 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn5 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content5 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content5 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn5 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content5 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown5:hover .dropdown-content5 {
+        display: block;
+    }
+
+    .dropdown6 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn6 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: green;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn6 a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .dropdown-content6 {
+        background-color: grey;
+        font-size: 1.3rem;
+        text-align: center;
+        min-width: 100%;
+        position: absolute;
+        display: none;
+    }
+
+    .dropdown-content6 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content6 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown6:hover .dropdown-content6 {
+        display: block;
+    }
+
+    .head3 {
+        width: 40%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3rem;
+    }
+
+    .head3 img {
+        width: 80%;
+        height: 100%;
+        transition: width 2s, transform 2s;
+    }
+
+    .head3 img:hover {
+        transform: rotate(360deg);
+    }
+
+    .section1 {
+        height: 100vh;
+    }
+
+    .sec1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(/GKS/pexels-tima-miroshnichenko-5206051.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: width 2s ease;
+    }
+
+    .sec1:hover {
+        width: 120vw;
+
+    }
+
+    .sec1 h1 {
+        width: 100vw;
+        height: 10vh;
+        font-size: 3.5rem;
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px 2px green;
+    }
+
+    .section2 {
+        min-height: 120vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .sec2a {
+        width: 30vw;
+        height: 50vh;
+        background-image: url(/GKS/photo-1529511582893-2d7e684dd128.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .sec2 {
+        background-color: rgba(7, 1, 1, 0.576);
+        width: 30vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 5rem;
+        gap: 1rem;
+    }
+
+    .sec2 h2 {
+        width: 3vw;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .sec2 p {
+        color: white;
+        font-size: 2rem;
+    }
+
+    .sec2b {
+        width: 60vw;
+        height: 50vh;
+        background-color: rgba(255, 217, 0, 0.324);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec2b1 {
+        background-color: beige;
+        width: 50vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        border-radius: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .sec2b1 p {
+        font-size: 1.3rem;
+        pad: 1rem;
+    }
+
+    .sec2c video {
+        width: 90vw;
+        border-radius: 1rem;
+    }
+
+    .section3 {
+        min-height: 135vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        gap: 1rem;
+    }
+
+    .sec {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        gap: 1rem;
+        background-color: rgba(245, 245, 220, 0.389);
+        border-radius: 2rem;
+    }
+
+    .sec h2 {
+        text-shadow: 2px 2px 1px green;
+    }
+
+    .sec p {
+        color: green;
+    }
+
+    .sec3a {
+        background-color: white;
+        font-size: 1.5rem;
+    }
+
+    .sec3b {
+        width: 45vw;
+        height: 40vh;
+        font-size: 1.5rem;
+    }
+
+    .sec3c {
+        width: 40vw;
+        height: 40vh;
+        font-size: 1.5rem;
+    }
+
+    .sec3d {
+        width: 40vw;
+        height: 30vh;
+        font-size: 1.5rem;
+    }
+
+    .sec3e {
+        width: 40vw;
+        height: 40vh;
+        font-size: 1.5rem;
+    }
+
+    .section4 {
+        background-image: linear-gradient(rgba(245, 245, 220, 0.448), rgba(255, 192, 203, 0.275));
+        min-height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 2rem;
+    }
+
+    .secc {
+        width: 45vw;
+        height: 60vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.4rem;
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .sec4a img {
+        width: 40vw;
+        height: 33.33vh;
+        border-radius: 1rem;
+    }
+
+    .sec4b img {
+        width: 40vw;
+        height: 33.33vh;
+        border-radius: 1rem;
+    }
+
+    .section5 {
+        min-height: 130vh;
+        background-image: url(/GKS/Choir.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 3rem 0rem;
+    }
+
+    .sed {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.643);
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        gap: 3rem;
+    }
+
+    .sec5a h3 {
+        text-align: center;
+        text-shadow: 2px 2px 2px green;
+    }
+
+    .sec5a h4 {
+        width: 5vw;
+        height: 7vh;
+        position: relative;
+        background-color: brown;
+        animation: gksyf 5s ease 2s infinite normal both;
+    }
+
+    @keyframes gksyf {
+        0% {background-color: brown; left: -10rem; top: 0rem;}
+        25% {background-color: blue; left: 10rem; top: 0rem;}
+        50% {background-color: green; left: 10rem; top: 20rem;}
+        75% {background-color: black; left: -10rem; top: 20rem;}
+        100% {background-color: brown; left: -10rem; top: 0rem;}
+    }
+
+
+    .section6 {
+        min-height: 270vh;
+        background-color: rgba(0, 0, 0, 0.046);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 1rem;
+    }
+
+    .sec6 {
+        font-size: 2rem;
+        color: green;
+        text-shadow: 2px 2px 3px black;
+    }
+
+    .see {
+        width: 19vw;
+        height: 30vh;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: green;
+    }
+
+    p:hover {
+        color: black;
+    }
+
+    .sec6a {
+        width: 50vw;
+        height: 42vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .sec6a1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/Sada1.jpeg);
+        background-repeat: no-repeat;
+        background-size: 300%;
+        background-position: 52% 15%;
+    }
+
+    .sec6b {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6b1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/Ediri.jpeg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: 45% 15%;
+    }
+
+    .sec6c {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6c1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.39.15\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6d {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6d1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/Omiklose.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6e {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6e1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/Great.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 40% 15%;
+    }
+
+    .sec6f {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6f1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.47.30\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: 45% 15%;
+    }
+
+    .sec6g {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6g1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/Baz.jpeg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: 40% 5%;
+    }
+
+    .sec6h {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6h1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.46.47\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6i {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6i1 {
+        width: 40vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.38.27\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6j {
+        width: 40vw;
+        height: 42vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6j1 {
+        width: 40vw;
+        height: 35vh;
+        border: 1px solid blue;
+        background-image: url(/GKS/);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .foot {
+        height: 45vh;
+        background-color: rgb(2, 93, 42);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .fo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .foot1 {
+        width: 100vw;
+    }
+
+    .foot1 h4 {
+        color: green;
+        text-shadow: 2px 2px 3px black;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+
+    .foot2 {
+        width: 100vw;
+        font-weight: bold;
+    }
+
+    .foot3 {
+        width: 100vw;
+    }
+
+    .foot3 h4 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 2px green;
+    }
+
+    .foot4 {
+        width: 30vw;
+        height: 15vh;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .foot5 {
+        color: beige;
+        text-decoration: none;
+        font-size: 2.5rem;
+    }
+
+    .foot6 {
+        width: 30vw;
+        height: 15vh;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 5rem;
+    }
+
+    .foot6 img {
+        width: 70%;
+    }
+
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    html {
+        font-size: 50%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        height: 10vh;
+        flex: 100%;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 2px 2px 10px -1px green;
+        z-index: 1;
+    }
+
+    .head1 {
+        width: 40vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .head1 img {
+        margin: auto;
+        width: 100%;
+        transition: width 2s;
+    }
+
+    .head1 img:hover {
+        width: 130%;
+    }
+
+    .head2 {
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .dropbtn {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropbtn a:hover {
+        color: grey;
+    }
+
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn1 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content1 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn1 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content1 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown1:hover .dropdown-content1 {
+        display: block;
+    }
+
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn2 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content2 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content2 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn2 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content2 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown2:hover .dropdown-content2 {
+        display: block;
+    }
+
+    .dropdown3 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn3 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn3 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content3 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content3 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn3 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content3 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown3:hover .dropdown-content3 {
+        display: block;
+    }
+
+    .dropdown4 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn4 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn4 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content4 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content4 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn4 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content4 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown4:hover .dropdown-content4 {
+        display: block;
+    }
+
+    .dropdown5 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn5 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn5 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown-content5 {
+        display: none;
+        position: absolute;
+        background-color: grey;
+        text-align: center;
+        min-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .dropdown-content5 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropbtn5 a:hover {
+        color: grey;
+    }
+
+    .dropdown-content5 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown5:hover .dropdown-content5 {
+        display: block;
+    }
+
+    .dropdown6 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn6 {
+        min-width: 7vw;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: green;
+        font-weight: bold;
+        border: none;
+    }
+
+    .dropbtn6 a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .dropdown-content6 {
+        background-color: grey;
+        font-size: 1.3rem;
+        text-align: center;
+        min-width: 100%;
+        position: absolute;
+        display: none;
+    }
+
+    .dropdown-content6 a {
+        color: black;
+        padding: 1.5rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content6 a:hover {
+        background-color: blanchedalmond;
+    }
+
+    .dropdown6:hover .dropdown-content6 {
+        display: block;
+    }
+
+    .head3 {
+        width: 40vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head3 img {
+        margin: auto;
+        width: 80%;
+        height: 100%;
+        transition: width 2s, transform 2s;
+    }
+
+    .head3 img:hover {
+        transform: rotate(360deg);
+    }
+
+    .section1 {
+        height: 100vh;
+    }
+
+    .sec1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(/GKS/pexels-tima-miroshnichenko-5206051.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: width 2s ease;
+    }
+
+    .sec1:hover {
+        width: 120vw;
+    }
+
+    .sec1 h1 {
+        width: 100vw;
+        height: 10vh;
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px 2px green;
+    }
+
+    .section2 {
+        min-height: 130vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .sec2a {
+        width: 90vw;
+        height: 40vh;
+        background-image: url(/GKS/photo-1529511582893-2d7e684dd128.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 1rem;
+    }
+
+    .sec2 {
+        background-color: rgba(7, 1, 1, 0.576);
+        width: 90vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec2 h2 {
+        color: white;
+        font-size: 2rem;
+        display: none;
+    }
+
+    .sec2 p {
+        color: white;
+        font-size: 3rem;
+    }
+
+    .sec2b {
+        width: 90vw;
+        height: 50vh;
+        background-color: rgba(255, 217, 0, 0.324);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec2b1 {
+        background-color: beige;
+        width: 80vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        border-radius: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .sec2b1 p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .sec2c video {
+        width: 90vw;
+        height: 30vh;
+        border-radius: 1rem;
+    }
+
+    .section3 {
+        min-height: 75vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        gap: 1rem;
+    }
+
+    .sec {
+        width: 100%;
+        height: 20vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        gap: 1rem;
+        background-color: rgba(245, 245, 220, 0.389);
+        border-radius: 2rem;
+    }
+
+    .sec h2 {
+        text-shadow: 2px 2px 1px green;
+    }
+
+    .sec p {
+        color: green;
+    }
+
+    .sec3a {
+        background-color: white;
+        font-size: 2rem;
+    }
+
+    .section4 {
+        background-image: linear-gradient(rgba(245, 245, 220, 0.448), rgba(255, 192, 203, 0.275));
+        min-height: 125vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 1rem;
+    }
+
+    .secc {
+        width: 100vw;
+        height: 60vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.8rem;
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .sec4a img {
+        width: 90vw;
+        height: 33.33vh;
+        border-radius: 1rem;
+    }
+
+    .sec4b img {
+        width: 90vw;
+        height: 33.33vh;
+        border-radius: 1rem;
+    }
+
+    .section5 {
+        min-height: 130vh;
+        background-image: url(/GKS/Choir.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        margin: 3rem 0rem;
+    }
+
+    .sed {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.643);
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        gap: 3rem;
+    }
+
+    .sec5a h3 {
+        text-align: center;
+        text-shadow: 2px 2px 2px green;
+    }
+
+    .sec5a h4 {
+        width: 10vw;
+        height: 7vh;
+        position: relative;
+        background-color: brown;
+        animation: gksyf 5s ease 2s infinite normal both;
+    }
+
+    @keyframes gksyf {
+        0% {background-color: brown; left: -10rem; top: 0rem;}
+        25% {background-color: blue; left: 10rem; top: 0rem;}
+        50% {background-color: green; left: 10rem; top: 20rem;}
+        75% {background-color: black; left: -10rem; top: 20rem;}
+        100% {background-color: brown; left: -10rem; top: 0rem;}
+    }
+
+
+    .section6 {
+        min-height: 420vh;
+        background-color: rgba(0, 0, 0, 0.046);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 1rem;
+    }
+
+    .see {
+        width: 19vw;
+        height: 30vh;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        font-size: 1.5rem;
+    }
+
+    .sec6 {
+        font-size: 2rem;
+        color: green;
+        text-shadow: 2px 2px 3px black;
+    }
+
+    p {
+        color: green;
+    }
+
+    p:hover {
+        color: black;
+    }
+
+    .sec6a {
+        width: 80vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6a1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/Sada1.jpeg);
+        background-repeat: no-repeat;
+        background-size: 300%;
+        background-position: 52% 15%;
+    }
+
+    .sec6b {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6b1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/Ediri.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6c {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6c1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.39.15\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6d {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6d1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/Omiklose.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6e {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6e1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/Great.jpeg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: 40% 15%;
+    }
+
+    .sec6f {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6f1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.47.30\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6g {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6g1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/Baz.jpeg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: 40% 5%;
+    }
+
+    .sec6h {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6h1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.46.47\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6i {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6i1 {
+        width: 80vw;
+        height: 35vh;
+        background-image: url(/GKS/WhatsApp\ Image\ 2024-05-10\ at\ 12.38.27\ PM.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .sec6j {
+        width: 100vw;
+        height: 40vh;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6j1 {
+        width: 80vw;
+        height: 35vh;
+        border: 1px solid blue;
+        background-image: url(/GKS/);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 45% 15%;
+    }
+
+    .foot {
+        height: 45vh;
+        background-color: rgb(2, 93, 42);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .fo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .foot1 {
+        width: 100vw;
+    }
+
+    .foot1 h4 {
+        color: green;
+        text-shadow: 2px 2px 3px black;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+
+    .foot2 {
+        width: 100vw;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .foot3 {
+        width: 100vw;
+    }
+
+    .foot3 h4 {
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px green;
+    }
+
+    .foot4 {
+        width: 30vw;
+        height: 15vh;
+        display: flex;
+        align-items: flex-end;
+        display: none;
+    }
+
+    .foot5 {
+        width: 100vw;
+        color: beige;
+        text-decoration: none;
+        font-size: 2.5rem;
+    }
+
+    .foot6 {
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foot6 img {
+        width: 80%;
+    }
+
+}

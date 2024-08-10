@@ -1,0 +1,62 @@
+body {
+    background-color: beige;
+}
+
+
+ul {
+    overflow: hidden;
+    margin:0%;
+    padding:0%;
+    list-style-type: none;
+    background-color: aquamarine;
+}
+
+li {
+    float: left;
+  }
+  
+li a:link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+  
+li a:active, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    width: 30%;
+}
+
+div img {
+    width: 100%;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+#mySubmit {
+    border: none;
+    color: blueviolet;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: aqua;
+    padding: 25px;
+    margin: auto;
+}

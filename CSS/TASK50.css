@@ -1,0 +1,103 @@
+* ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 187, 34);
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    color: rgb(145, 10, 103);
+    font-size: 2rem;
+}
+
+table, th, td {
+    border: 2px solid rgb(114, 4, 85);
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: center;
+    width: 90vw;
+}
+
+th {
+    color: rgb(145, 10, 103);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+td:hover {
+    color: white;
+    background: rgb(60, 7, 83);
+    transition: all 0.5s ease-in-out;
+}
+
+td {
+    color: rgb(60, 7, 83);
+}
+
+.grade {
+    padding-top: 3rem;
+    margin-left: 4.5rem;
+}
+
+.firstButton,
+.secondButton,
+.thirdButton,
+.fourthButton,
+.fifthButton,
+.sixthButton,
+.seventhButton,
+.eighthButton,
+.ninthButton,
+.tenthButton {
+    margin-left: 5rem;
+    text-align: center;
+    background-color: rgb(60, 7, 83);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 15rem;
+}
+
+.main button {
+    background-color: rgb(60, 7, 83);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.ready {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(60, 7, 83);
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+    transition: all 3s ease;
+}
