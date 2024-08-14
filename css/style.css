@@ -1,0 +1,387 @@
+/* DESKTOP VERSION */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  width: 100%;
+  margin: 10rem auto;
+  /*padding: 2rem;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 700px;
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+/*width: 427px;
+height: 398.67px;
+
+*/
+
+.reset img {
+  max-width: 350px;
+  height: aut0;
+}
+.reset {
+  padding-bottom: 5rem;
+}
+.reset-note h1 {
+  color: #000;
+  font-size: 3.8rem;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+.reset-note p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.code input {
+  width: 40rem;
+  height: 40px;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.code input::placeholder {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 2rem;
+
+}
+
+.password {
+  margin-top: 10px;
+}
+
+.password label {
+  margin-bottom: 10px;
+}
+
+.new {
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  margin-left: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.new input {
+  border: none;
+  margin-left: -90px;
+}
+.new input::placeholder {
+  color: gray;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.new img {
+  width: 2.1rem;
+}
+.lock {
+  background: #dedede;
+  margin-left: -125px;
+  width: 50px;
+  padding: 1rem;
+}
+
+.eye {
+  width: 4.1rem;
+  margin-right: -110px;
+  margin-top: 8px;
+}
+
+.reset-btn {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f781c;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 2rem;
+}
+
+/*
+.password .eye {
+  padding-right: 3.8rem;
+  background-image: url(img/eye.png);
+  background-repeat: no-repeat;
+  background-size: 2.3rem;
+  background-position: 0.5rem center;
+  background-color: #dedede;
+}
+*/
+/* TABLET VERSION */
+
+@media screen and (max-width: 1100px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  html {
+    font-size: 50%;
+  }
+  .container {
+    width: 100%;
+    margin: 13rem auto;
+    /*padding: 2rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 700px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /*width: 427px;
+  height: 398.67px;
+  
+  */
+  
+  .reset img {
+    max-width: 350px;
+    height: auto;
+  }
+  .reset {
+    padding-bottom: 5rem;
+  }
+  .reset-note h1 {
+    color: #000;
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+  }
+  
+  .reset-note p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .code input {
+    width: 40rem;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .code input::placeholder {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2rem;
+  
+  }
+  
+  .password {
+    margin-top: 10px;
+  }
+  
+  .password label {
+    margin-bottom: 10px;
+  }
+  
+  .new {
+    margin: auto;
+    width: 40rem;
+    border-radius: 5px;
+  }
+  
+  .new input::placeholder {
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .new img {
+    width: 2.1rem;
+  }
+  .lock {
+    background: #dedede;
+    margin-left: -100px;
+    width: 50px;
+    padding: 1.3rem;
+  }
+  
+  .eye {
+    width: 4.1rem;
+    margin-right: -100px;
+    margin-top: 8px;
+  }
+  
+  .reset-btn {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f781c;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  html {
+    font-size: 50%;
+  }
+  .container {
+    width: 100%;
+    margin: 13rem auto;
+    /*padding: 2rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 700px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /*width: 427px;
+  height: 398.67px;
+  
+  */
+  
+  .reset img {
+    max-width: 350px;
+    height: auto;
+  }
+  .reset {
+    padding-bottom: 5rem;
+  }
+  .reset-note h1 {
+    color: #000;
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+  }
+  
+  .reset-note p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .code input {
+    width: 40rem;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .code input::placeholder {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2rem;
+  
+  }
+  
+  .password {
+    margin-top: 10px;
+  }
+  
+  .password label {
+    margin-bottom: 10px;
+  }
+  
+  .new {
+    margin: auto;
+    width: 40rem;
+    border-radius: 5px;
+  }
+  
+  .new input::placeholder {
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .new img {
+    width: 2.1rem;
+  }
+  .lock {
+    background: #dedede;
+    margin-left: -100px;
+    width: 50px;
+    padding: 1.3rem;
+  }
+  
+  .eye {
+    width: 4.1rem;
+    margin-right: -100px;
+    margin-top: 8px;
+  }
+  
+  .reset-btn {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f781c;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,908 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: rgba(246, 246, 246, 1);
+}
+/*
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #4f781c;
+  height: 10vh;
+}
+.logo img {
+  max-width: 4rem;
+}
+
+.link ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.link li a {
+  text-decoration: none;
+  color: #f6f6f6;
+  font-size: 1.8rem;
+}
+.active {
+  color: #fff;
+  font-weight: 600;
+}
+.nav-side p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.nav-side img {
+  max-width: 4rem;
+}
+.nav-side {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.toggle {
+  display: none;
+}
+/*
+.back {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem 0rem 2rem 9rem;
+  width: 100%;
+}
+*/
+
+.back {
+  margin-left: 15rem;
+  margin-top: 5rem;
+  display: flex;
+  column-gap: 15rem;
+}
+.back img {
+  width: 3rem;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.arrow p {
+  padding-bottom: 0.5rem;
+}
+
+.back {
+  margin-left: 15rem;
+  margin-top: 5rem;
+  display: flex;
+}
+
+.back img {
+  width: 3rem;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.arrow p {
+  padding-bottom: 0.5rem;
+  color: #000;
+}
+
+.lock {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background-color: red;
+  border-radius: 0.8rem;
+}
+.lock p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100rem;
+  text-align: center;
+  margin: 10rem auto;
+  gap: 7rem;
+}
+
+.form {
+  border: none;
+  width: 48rem;
+  transform: translateX(-1rem);
+  border-radius: 1rem;
+  background-color: rgb(255, 245, 233);
+  box-shadow: 1px 1px 7px grey;
+  padding: 2rem;
+}
+
+.form1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+}
+
+#cate {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+#category {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 44rem;
+  padding: 0.8rem 3rem;
+  border: 1px solid rgba(9, 9, 9, 1);
+  background-color: transparent;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  top: 7.4rem;
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+#health {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#consultant {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 44rem;
+  padding: 0.8rem 3rem;
+  border: 1px solid rgba(9, 9, 9, 1);
+  background-color: transparent;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.img2 {
+  position: absolute;
+  top: 16rem;
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+#sess {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#session {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 44rem;
+  padding: 0.8rem 3rem;
+  border: 1px solid rgba(9, 9, 9, 1);
+  background-color: transparent;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.img3 {
+  position: absolute;
+  top: 24.5rem;
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+#tim {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#time {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 44rem;
+  padding: 0.8rem 3rem;
+  border: 1px solid rgba(9, 9, 9, 1);
+  background-color: transparent;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.img4 {
+  position: absolute;
+  top: 33rem;
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+#amo {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#amount {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 44rem;
+  padding: 1rem 3.5rem;
+  border: 1px solid rgba(9, 9, 9, 1);
+  background-color: transparent;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.img5 {
+  position: absolute;
+  top: 41.9rem;
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+.date-time {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 45rem;
+  transform: translateX(2rem);
+}
+
+.date-form {
+  border: none;
+  width: 43rem;
+  height: 40rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 245, 233);
+  box-shadow: 1px 1px 7px grey;
+  padding: 2rem;
+}
+
+.date-form h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.date-time img {
+  width: 38rem;
+  height: 30rem;
+}
+
+.btn {
+  margin: 5rem auto;
+  text-align: center;
+  width: 45rem;
+}
+
+.btn1 {
+  margin-bottom: 1rem;
+  color: rgba(79, 120, 28, 1);
+  border: 0.5px solid grey;
+  border-radius: 0.5rem;
+  padding: 1.4rem 1rem;
+  text-align: center;
+  width: 15rem;
+  background-color: rgba(246, 246, 246, 1);
+  transform: translateY(-1rem);
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
+}
+
+.btn2 {
+  margin-bottom: 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.4rem 1rem;
+  text-align: center;
+  width: 20rem;
+  background-color: rgba(79, 120, 28, 1);
+  transform: translateY(-1rem);
+  font-size: 1.4rem;
+}
+/* TABLET VERSION */
+
+@media screen and (max-width: 1100px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #4f781c;
+    height: 9rem;
+  }
+  .logo img {
+    max-width: 6rem;
+  }
+
+  .link ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+    display: none;
+  }
+
+  .link li a {
+    text-decoration: none;
+    color: #f6f6f6;
+    font-size: 1.8rem;
+  }
+  .active {
+    color: #fff;
+    font-weight: 600;
+  }
+  .nav-side p {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  .nav-side img {
+    max-width: 6rem;
+  }
+  .nav-side {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    display: none;
+  }
+
+  .back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0rem 2rem 9rem;
+    width: 100%;
+  }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10%;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .arrow p {
+    padding-bottom: 0.5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75rem;
+  }
+
+  .form {
+    border: none;
+    width: 50rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 245, 233);
+    box-shadow: 1px 1px 7px grey;
+    padding: 2rem;
+  }
+
+  .form1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  #cate {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  #category {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 7.5rem;
+  }
+
+  #health {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #consultant {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 17.5rem;
+  }
+
+  #sess {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #session {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 27.3rem;
+  }
+
+  #tim {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #time {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 37.3rem;
+  }
+
+  #amo {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #amount {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 47rem;
+  }
+
+  .date-time {
+    width: 50rem;
+    margin-right: 6rem;
+  }
+
+  .date-form {
+    border: none;
+    width: 50rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 245, 233);
+    box-shadow: 1px 1px 7px grey;
+    padding: 2rem;
+  }
+
+  .date-form h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 2.7rem;
+  }
+
+  #date {
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    width: 46rem;
+    padding: 1rem 2rem 25rem 2rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+  }
+
+  .btn {
+    margin: 5rem auto;
+    text-align: center;
+    width: 45rem;
+  }
+
+  .btn1 {
+    margin-bottom: 1rem;
+    color: rgba(79, 120, 28, 1);
+    border: 0.5px solid grey;
+    border-radius: 0.5rem;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    width: 15rem;
+    background-color: rgba(246, 246, 246, 1);
+    transform: translateY(-1rem);
+    font-size: 1.4rem;
+    margin-right: 1.2rem;
+  }
+
+  .btn2 {
+    margin-bottom: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    width: 20rem;
+    background-color: rgba(79, 120, 28, 1);
+    transform: translateY(-1rem);
+    font-size: 1.4rem;
+  }
+}
+
+/* MOBILE VERSION */
+@media screen and (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #4f781c;
+    height: 9rem;
+  }
+  .logo img {
+    max-width: 6rem;
+  }
+
+  .link ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+    display: none;
+  }
+
+  .link li a {
+    text-decoration: none;
+    color: #f6f6f6;
+    font-size: 1.8rem;
+  }
+  .active {
+    color: #fff;
+    font-weight: 600;
+  }
+  .nav-side p {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  .nav-side img {
+    max-width: 6rem;
+  }
+  .nav-side {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    display: none;
+  }
+
+  .back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0rem 2rem 9rem;
+    width: 100%;
+  }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10%;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .arrow p {
+    padding-bottom: 0.5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75rem;
+  }
+
+  .form {
+    border: none;
+    width: 50rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 245, 233);
+    box-shadow: 1px 1px 7px grey;
+    padding: 2rem;
+    transform: translateX(-6rem);
+  }
+
+  .form1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  #cate {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  #category {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 7.5rem;
+  }
+
+  #health {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #consultant {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 17.5rem;
+  }
+
+  #sess {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #session {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 27.3rem;
+  }
+
+  #tim {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #time {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 37.3rem;
+  }
+
+  #amo {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #amount {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1.2rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 47rem;
+  }
+
+  .date-time {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50rem;
+    margin-right: 15rem;
+  }
+
+  .date-form {
+    border: none;
+    width: 50rem;
+    height: 40rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 245, 233);
+    box-shadow: 1px 1px 7px grey;
+    padding: 2rem;
+  }
+
+  .date-form h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 2.7rem;
+  }
+
+  #date {
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    width: 46rem;
+    padding: 1rem 2rem 25rem 2rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+  }
+
+  .btn {
+    margin: 5rem auto;
+    text-align: center;
+    width: 45rem;
+  }
+
+  .btn1 {
+    margin-bottom: 1rem;
+    color: rgba(79, 120, 28, 1);
+    border: 0.5px solid grey;
+    border-radius: 0.5rem;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    width: 15rem;
+    background-color: rgba(246, 246, 246, 1);
+    transform: translateY(-1rem);
+    font-size: 1.4rem;
+    margin-right: 1.2rem;
+  }
+
+  .btn2 {
+    margin-bottom: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    width: 20rem;
+    background-color: rgba(79, 120, 28, 1);
+    transform: translateY(-1rem);
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,332 @@
+@media screen and (max-width: 600px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .page-header {
+    background-color: rgba(79, 120, 28, 1);
+    height: 5rem;
+    width: 100%;
+  }
+  .nav-links,
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4rem;
+    display: none;
+  }
+  
+  .nav-list .active,
+  .user-active {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .nav-list li a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #f6f6f6;
+  }
+  .nav-list li a:hover {
+    opacity: 0.8;
+  }
+  .user {
+    margin-right: 30px;
+    gap: 1rem;
+    font-size: 1.2rem;
+    display: none;
+  }
+  .user img {
+    border-radius: 80px;
+  }
+  .user1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30vw;
+    margin-right: 1rem;
+  }
+.relative1 {
+    width: 100%;
+    height:495px;
+    background: url(/Portrait\ of\ diverse\ women\ together.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+position: relative;
+}
+.overlay {
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    height: 495px;
+  }
+  .main {
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+    left: auto;
+    padding-left: 40px;
+    width: 401px;
+    height: 280px;
+  }
+  .main-head {
+font-weight: 800;
+font-size: 1.51rem;
+color: #ffcf91;
+line-height: 38px;
+margin-bottom: 15px;
+  }
+  .main-para {
+font-weight: 600;
+font-size: 1.56rem;
+  }
+  input::placeholder {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 0px
+}
+
+.search {
+  position: relative;
+}
+
+.search img{
+    position: absolute;
+    left:7px;
+    top: calc(45% - 11px);
+    text-align: center;
+    font-size: 28px;
+    width: 48px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: White;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.search input {
+  padding: 5px 22px 5px 60px;
+  font-size: 1.25rem;
+}
+.search img {
+  width: 40px;
+  height: 40px;
+}
+.search a > img:hover {
+  cursor: pointer;
+}
+input {
+  margin-top:20px;
+  width: 347px;
+background-color: none;
+color: white;
+height: 52px;
+font-size: 1rem;
+background: transparent;
+border: 1px solid white;
+padding: 9px 18px 9px 52px;
+outline: none;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+.meet {
+  width: 100%;
+  padding-left: 40px;
+  height: 80px;
+  padding-top: 30px;
+  color: #4f781c;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.recent-article {
+  padding-top: 50px;
+  padding-left: 25px;
+  display: flex;
+flex-wrap: wrap;
+}
+
+.article {
+  display: flex;
+  overflow: hidden;
+}
+
+.article img {
+  width: 200px;
+  height: 200px;
+   border-radius: 200px;
+}
+
+.article-word {
+  padding: 20px;
+  text-align: left;
+  line-height: 32px;
+}
+.article-word h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.article-word p {
+font-size: 1.25rem;
+font-weight: 400;
+padding-top: 10px;
+}
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  color: white;
+  background: #101806;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  justify-content: space-between;
+}
+
+.logo-name {
+  text-align: center;
+  width: 100%;
+}
+
+.logo-name span {
+  color: #ffcf91;
+}
+.logo-name img {
+  width: 68px;
+  height: 74px;
+}
+.explore {
+line-height: 22px;
+color: #f6f6f6;
+display: flex;
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100rem;
+margin-top: 4rem;
+}
+.explore h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.explore a {
+  text-decoration: none;
+  font-family: 400;
+  font-size: 1.25rem;
+  color: white;
+}
+.contact {
+  line-height: 32px;
+  color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100rem;
+  margin-top: 4rem;
+  }
+  .contact h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .contact a {
+    text-decoration: none;
+    font-family: 400;
+    font-size: 1.25rem;
+    color: white;
+  }
+.sub-btn {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.connect {
+  width: 30%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100rem;
+  margin-top: 4rem;
+}
+.socials img {
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 80px;
+}
+.search2 {
+  position: relative;
+}
+
+.search2 button {
+    position: absolute;
+    right: 0px;
+    margin-right: 0px;
+    top: calc(39% - 11px);
+    text-align: center;
+    font-size: 28px;
+    width: 48px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    background: #4f781c;
+    color: White;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.search2 input {
+  padding: 5px 22px 5px 2px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #ababab;
+  color: white;
+}
+.search2 >input::placeholder {
+  color: white;
+  padding: 5px;
+text-align: left;
+}
+footer a:hover {
+  opacity: 0.8;
+}
+}

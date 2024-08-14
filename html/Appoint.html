@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Health Assessment Page</title>
+    <link rel="stylesheet" href="/css/Appoint.css">
+    <link rel="shortcut icon" href="/Capstone Project/images/Malik assets/Property_1_Variant4-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <header class="page-header">
+        <nav class="nav-links">
+          <div class="logo">
+            <img src="/images/Richard assets/logo.png" width="43" height="43" alt="we">
+          </div>
+  
+          <ul class="nav-list">
+            <li><a href="/html/dashboard.html">Dashboard</a></li>
+            <li><a href="/html/prof.html">Professionals</a></li>
+            <li><a href="/html/edu.html">Resources</a></li>
+            <li><a href="/html/articules.html">Support Group</a></li>
+            <li><a href="/html/assess.html">Health Assessment</a></li>
+          </ul>
+  
+          <div class="user">
+            <p class="user-active">HalleyBerry</p>
+            <img src="/images/Richard assets/Avatar Image.png" width="50" height="50" alt="">
+          </div>
+
+          <div class="user1">
+            <img src="/images/Richard assets/menu.png" width="50" height="50" alt="">
+          </div>
+        </nav>
+    </header>
+
+    <section class="back">
+        <div class="arrow">
+            <a href="#">
+                <img src="/images/Richard assets/arrow-left.png" width="24" height="24" alt="">
+            </a>
+            <p>Back</p>
+        </div>
+    </section>
+
+    <section class="breakdown">
+        <div class="container">
+            <div class="form">    
+                    <form class="form1" action="#">
+                        <label id="cate" for="Category">Category</label><br>
+                        <img class="img1" src="/Capstone Project/images/Richard assets/Frame 386.png" width="30" height="33" alt="">
+                        <select name="Category" id="category">
+                            <option value="health">Select Category</option>
+                            <option value="Health">Mental Health Concerns</option>
+                            <option value="Health">Sexual Health Concerns</option>
+                            <option value="Healthr">Marital Concerns</option>
+                        </select><br>
+                        
+                        <label id="health" for="Health">Health Consultant</label><br>
+                        <img class="img2" src="/Capstone Project/images/Richard assets/Frame 386.png" width="30" height="33" alt="">
+                        <select name="consultant" id="consultant">
+                            <option value="cons">Select Consultant</option>
+                            <option value="cons">Ms. Adaobi Nneka</option>
+                            <option value="cons">Mrs Ngozi Okafor</option>
+                            <option value="cons">Dr. Michael Evans</option>
+                        </select><br>
+
+                        <label id="sess" for="Session">Select Session</label><br>
+                        <img class="img3" src="/images/Richard assets/Frame 386 (6).png" width="30" height="33" alt="">
+                        <select name="Session" id="session">
+                            <option value="Select Session">Select Session</option>
+                            <option value="Morning">Morning Session</option>
+                            <option value="Afternoon">Afternoon Session</option>
+                            <option value="Evening">Evening Session</option>
+                        </select><br>
+
+                        <label id="tim" for="Time">Time</label><br>
+                        <img class="img4" src="/images/Richard assets/Frame 386 (7).png" width="30" height="33" alt="">
+                        <select name="time" id="time">
+                            <option value="Select Time">Select Time</option>
+                            <option value="time">09:00am- 09:45am</option>
+                            <option value="time">10:00am-10:45am</option>
+                            <option value="time">11:00am-11:45am</option>
+                            <option value="time">12:00pm-12:45pm</option>
+                            <option value="time">13:00pm-13:45pm</option>
+                            <option value="time">14:00pm-14:45pm</option>
+                            <option value="time">15:00pm-15:45pm</option>
+                            <option value="time">16:00pm-16:45pm</option>
+                            <option value="time">17:00pm-17:45pm</option>
+                        </select><br>
+
+                        <label id="amo" for="Amount">Amount</label><br>
+                        <img class="img5" src="/images/Richard assets/Frame 386 (8).png" width="30" height="33" alt="">
+                        <input type="text" id="amount" placeholder="N10,000">
+                    </form>
+            </div>
+            
+            <div class="date-time">
+                <form class="date-form" action="">
+                    <h2>Select Date</h2>
+                    <input type="date" name="date" id="date"><br>
+                </form>
+
+                <div class="btn">
+                        <button class="btn1"><a href="#">Cancel</a></button>
+                        <button class="btn2"><a href="/html/successful.html">Schedule Appointment</a></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

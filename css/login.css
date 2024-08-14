@@ -1,0 +1,583 @@
+ /* DESKTOP VERSION */
+ * ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    background-image: url(/pexels-wangming-photo-115695-354941.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 640px;
+    width: 970px;
+    background-color: white;
+    margin: 16rem auto;
+    border-radius: 6.4rem 0rem 0rem 6.4rem;
+  }
+
+  .image {
+    background-color: white;
+    width: 43rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .image img {
+    width: 40rem;
+    height: 45rem;
+  }
+  
+  .form {
+    width: 480px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(205, 205, 205, 0.687);
+    border-radius: 6.4rem 0rem 0rem 6.4rem;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45rem;
+    width: 40rem;
+    margin: auto;
+  }
+
+  .welcome {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 800;
+    line-height: 28px;
+  }
+  
+  .buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1.7rem;
+  }
+  
+  .buttn {
+    background-color: transparent;
+    padding: 0.7rem 1.5rem;
+    border: 1.5px solid;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    width: 13.5rem;
+  }
+  
+  .buttn img {
+    font-size: 1.5rem;
+    padding-right: 3px;
+    transform: translateY(2px);
+  }
+  
+  .line-or {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .line-or .line {
+    width: 11rem;
+    border-bottom: 1.5px solid;
+    transform: translateY(-12px);
+  }
+  
+  .or-bold {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    width: 100%;
+    position: relative;
+    margin-top: 1rem;
+  }
+  
+  .input-form input {
+    width: 67%;
+    padding: 0.8rem;
+    border: 0.5px solid;
+    border-radius: 4px;
+  }
+  
+  .input-form input::placeholder {
+    font-weight: lighter;
+    color: rgb(169, 169, 168);
+    padding-left: 15%;
+    font-size: 1.2rem;
+  }
+  
+  .message-box {
+    padding: 7.5px 13px;
+    background-color: #e7e5e5;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    left: 14.5%;
+    top: 1px;
+  }
+  
+  .lock {
+    padding: 7.5px 14px;
+    background-color: #e7e5e5;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    left: 14.5%;
+    bottom: 1px;
+  }
+
+  .eye {
+    padding: 7.5px 14px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    right: 14.5%;
+    bottom: 1px;
+  }
+
+  .forgot {
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+  }
+
+  .forgot p a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .log-in {
+    width: 47%;
+    background-color: rgba(79, 120, 28, 1);
+    color: #fff;
+    padding: 1.3rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  .log-in a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .last-info {
+    font-size: 1.1rem;
+    font-weight: lighter;
+  }
+  
+  .last-info a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /* TABLET VERSION */
+
+  @media screen and (max-width: 1100px) {
+    * ⁠{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      font-size: 60%;
+      background-image: url(/pexels-wangming-photo-115695-354941.jpg);
+      font-family: "Raleway", sans-serif;
+      overflow-x: hidden;
+    }
+    
+    .container {
+      width: 50rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 6.4rem 0rem 0rem 6.4rem;
+    }
+
+    .image {
+      background-color: white;
+      height: 40rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      display: none;
+    }
+    
+    .image img {
+      width: 25vw;
+      height: 40rem;
+    }
+
+    .form {
+      width: 50rem;
+      display: flex;
+      background-color: rgba(205, 205, 205, 0.687);
+    }
+    
+    .form-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 45rem;
+      width: 50vw;
+    }
+  
+    .welcome {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-top: 2rem;
+      font-weight: 800;
+      line-height: 28px;
+    }
+    
+    .buttons-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 1.5rem;
+    }
+    
+    .buttn {
+      background-color: transparent;
+      padding: 1rem 1.5rem;
+      border: 1.5px solid;
+      border-radius: 8px;
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-align: center;
+      width: 12rem;
+    }
+    
+    .buttn img {
+      font-size: 1.5rem;
+      padding-right: 3px;
+      transform: translateY(3px);
+    }
+    
+    .line-or {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .line-or .line {
+      width: 11rem;
+      border-bottom: 1.5px solid;
+      transform: translateY(-12px);
+    }
+    
+    .or-bold {
+      font-weight: 500;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .input-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 1rem;
+      width: 40rem;
+      position: relative;
+      margin-top: 1rem;
+    }
+    
+    .input-form input {
+      width: 21rem;
+      padding: 1rem 1.5rem;
+      border: 0.5px solid;
+      border-radius: 4px;
+    }
+    
+    .input-form input::placeholder {
+      font-weight: lighter;
+      color: rgb(169, 169, 168);
+      font-size: 1.2rem;
+    }
+    
+    .message-box {
+      padding: 0.95rem 1.2rem;
+      background-color: #e7e5e5;
+      border: none;
+      border-radius: 4px 0px 0px 4px;
+      position: absolute;
+      left: 8rem;
+      top: 1px;
+    }
+    
+    .lock {
+      padding: 0.95rem 1.2rem;
+      background-color: #e7e5e5;
+      border: none;
+      border-radius: 4px 0px 0px 4px;
+      position: absolute;
+      left: 8rem;
+      bottom: 1px;
+    }
+  
+    .eye {
+      padding: 7.5px 14px;
+      background-color: transparent;
+      border: none;
+      border-radius: 4px 0px 0px 4px;
+      position: absolute;
+      right: 8rem;
+      bottom: 1px;
+    }
+  
+    .forgot {
+      margin-right: 19rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+      font-size: 1rem;
+    }  
+    
+    .log-in {
+      width: 20vw;
+      background-color: rgba(79, 120, 28, 1);
+      padding: 1.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1.4rem;
+    }
+    
+    .last-info {
+      font-size: 1.3rem;
+      font-weight: lighter;
+    }
+    
+    .last-info a {
+      color: black;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+
+  /* MOBILE VERSION */
+
+  @media screen and (max-width: 600px) {
+    * ⁠{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      font-size: 50%;
+      background-image: url(/pexels-wangming-photo-115695-354941.jpg);
+      font-family: "Raleway", sans-serif;
+      overflow-x: hidden;
+    }
+    
+    .container {
+      min-height: 60rem;
+      width: 80vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      border-radius: 6.4rem 0rem 0rem 6.4rem;
+    }
+
+    .image {
+      border: 1px solid;
+      margin-left: 17rem;
+      display: none;
+    }
+    
+    .image img {
+      width: 20rem;
+      height: 20rem;
+    }
+    
+    .form {
+      width: 80vw;
+      height: 80rem;
+      display: flex;
+      background-color: rgba(205, 205, 205, 0.687);
+    }
+    
+    .form-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70vw;
+      margin: auto;
+    }
+  
+    .welcome {
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 2rem;
+      font-weight: 800;
+      line-height: 28px;
+    }
+    
+    .buttons-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 1.7rem;
+    }
+    
+    .buttn {
+      background-color: transparent;
+      padding: 1rem 1.5rem;
+      border: 1.5px solid;
+      border-radius: 8px;
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-align: center;
+      width: 13.5rem;
+    }
+    
+    .buttn img {
+      font-size: 1.5rem;
+      padding-right: 3px;
+      transform: translateY(3px);
+    }
+    
+    .line-or {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .line-or .line {
+      width: 11rem;
+      border-bottom: 1.5px solid;
+      transform: translateY(-12px);
+    }
+    
+    .or-bold {
+      font-weight: 500;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .input-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 1rem;
+      width: 42rem;
+      position: relative;
+      margin-top: 1rem;
+    }
+    
+    .input-form input {
+      width: 67%;
+      padding: 1rem 1.5rem;
+      border: 0.5px solid;
+      border-radius: 4px;
+    }
+    
+    .input-form input::placeholder {
+      font-weight: lighter;
+      color: rgb(169, 169, 168);
+      padding-left: 15%;
+      font-size: 1.3rem;
+    }
+    
+    .message-box {
+      padding: 7.8px 10px;
+      background-color: #e7e5e5;
+      border: none;
+      border-radius: 4px 0px 0px 4px;
+      position: absolute;
+      left: 13.1%;
+      top: 1px;
+    }
+    
+    .lock {
+      padding: 7.3px 10.7px;
+      background-color: #e7e5e5;
+      border: none;
+      border-radius: 4px 0px 0px 4px;
+      position: absolute;
+      left: 13.1%;
+      bottom: 1px;
+    }
+  
+    .eye {
+      padding: 7.5px 14px;
+      background-color: transparent;
+      border: none;
+      border-radius: 4px 0px 0px 4px;
+      position: absolute;
+      right: 14.5%;
+      bottom: 1px;
+    }
+  
+    .forgot {
+      margin-right: 21rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+      font-size: 1.3rem;
+    }
+    
+    .log-in {
+      width: 15vw;
+      background-color: rgba(79, 120, 28, 1);
+      color: #fff;
+      padding: 1.4rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1.5rem;
+    }
+    
+    .last-info {
+      font-size: 1.3rem;
+      font-weight: lighter;
+    }
+    
+    .last-info a {
+      color: black;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+  

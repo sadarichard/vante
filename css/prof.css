@@ -1,0 +1,488 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.page-header {
+  background-color: rgba(79, 120, 28, 1);
+  height: auto;
+  width: 100%;
+  padding: 1rem 6.9rem;
+  color: white;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo h1 {
+  display: none;
+}
+
+.nav-links,
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 4.4rem;
+}
+
+.nav-list .active,
+.user-active {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-list li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #f6f6f6;
+}
+
+.user {
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+
+.nav__toggle {
+  font-size: 3rem;
+  display: none;
+}
+
+.prof-container {
+  display: flex;
+  justify-content: center;
+}
+
+.prof-content {
+  display: flex;
+  justify-content: center;
+  height: 87.5vh;
+  width: 100vw;
+}
+
+.image-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-div img {
+  height: 42rem;
+  width: 40rem;
+}
+
+.description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  font-size: 1.5rem;
+  padding: 5% 0;
+}
+
+.description-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1.2rem;
+}
+
+.name {
+  color: #4f781c;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.vocation {
+  color: #000;
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.ratings,
+.description span {
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.ratings img {
+  width: 75px;
+  height: 13px;
+  padding-left: 0.5rem;
+}
+
+.background,
+.credentials {
+  width: 65%;
+  font-size: 1.6rem;
+  line-height: 23px;
+}
+
+.appointment-buttn {
+  width: 20rem;
+  color: white;
+  padding: 1rem 2.2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #4f781c;
+  border: none;
+  border-radius: 5px;
+}
+
+/*TABLET VIEW*/
+@media screen and (max-width: 1100px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+  }
+
+  html {
+    font-size: 60%;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .page-header {
+    background-color: rgba(79, 120, 28, 1);
+    height: auto;
+    width: 100%;
+    padding: 1rem 6.9rem;
+    color: white;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .logo h1 {
+    display: flex;
+    align-self: center;
+  }
+
+  .logo h1 span {
+    color: #ffcf91;
+  }
+
+  .nav-links,
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4.4rem;
+  }
+
+  .nav-list .active,
+  .user-active {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav-list li a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f6f6f6;
+  }
+
+  .user {
+    gap: 1rem;
+    font-size: 1.6rem;
+    display: none;
+  }
+
+  .nav__toggle {
+    font-size: 3rem;
+    display: flex;
+  }
+
+  .prof-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .prof-content {
+    display: flex;
+    justify-content: center;
+    height: 87.5vh;
+    width: 100vw;
+  }
+
+  .image-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-div img {
+    height: 36rem;
+    width: 34rem;
+  }
+
+  .description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    font-size: 1.5rem;
+    padding: 9rem 0;
+  }
+
+  .description-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+  }
+
+  .name {
+    color: #4f781c;
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .vocation {
+    color: #000;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  .ratings,
+  .description span {
+    color: #000;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+  .ratings img {
+    width: 75px;
+    height: 13px;
+    padding-left: 0.5rem;
+  }
+
+  .background,
+  .credentials {
+    width: 65%;
+    font-size: 1.6rem;
+    line-height: 23px;
+  }
+
+  .appointment-buttn {
+    width: 19rem;
+    color: white;
+    padding: 1rem 2.2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #4f781c;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+/*MOBILE VIEW*/
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 55%;
+  }
+
+  .page-header {
+    background-color: rgba(79, 120, 28, 1);
+    height: auto;
+    width: 100%;
+    padding: 1rem 6.9rem;
+    color: white;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .nav-links,
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4.4rem;
+  }
+
+  .nav-list .active,
+  .user-active {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav-list li a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f6f6f6;
+  }
+
+  .user {
+    gap: 1rem;
+    font-size: 1.6rem;
+    display: none;
+  }
+
+  .nav__toggle {
+    font-size: 3rem;
+    display: flex;
+  }
+
+  .prof-container {
+    padding-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prof-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 87.5vh;
+    width: 100vw;
+  }
+
+  .image-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24%;
+  }
+
+  .image-div img {
+    height: 42rem;
+    width: 40rem;
+  }
+
+  .description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+    padding: 5% 0;
+  }
+
+  .description-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 85%;
+  }
+
+  .name {
+    color: #4f781c;
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 40px;
+    width: 65%;
+  }
+
+  .vocation {
+    color: #000;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    width: 65%;
+  }
+
+  .ratings,
+  .description span {
+    color: #000;
+    font-size: 1.7rem;
+    text-align: left;
+    font-weight: 700;
+    width: 65%;
+  }
+
+  .ratings img {
+    width: 75px;
+    height: 13px;
+    padding-left: 0.5rem;
+  }
+
+  .background,
+  .credentials {
+    width: 65%;
+    font-size: 1.6rem;
+    line-height: 23px;
+  }
+
+  .appointment-buttn {
+    width: 22rem;
+    color: white;
+    padding: 1.5rem 2.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #4f781c;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+  }
+}

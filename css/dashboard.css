@@ -1,0 +1,966 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.page-header {
+  background-color: rgba(79, 120, 28, 1);
+  height: auto;
+  width: 100%;
+  padding: 1rem 6.9rem;
+  color: white;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo h1 {
+  display: none;
+}
+
+.nav-links,
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 4.4rem;
+}
+
+.nav-list .active,
+.user-active {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-list li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #f6f6f6;
+}
+
+.nav__toggle {
+  font-size: 3rem;
+  display: none;
+}
+
+.user {
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+
+.hero-section {
+  background-image: url("/Capstone Project/images/Beatrice assets/Fashionable\ smiled\ young\ beautiful\ african\ american\ business\ woman\ with\ afro\ hairstyle\ wear\ in\ elegant\ black\ sitting\ and\ working\ at\ laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 88.1vh;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  position: relative;
+  /* width: 70%;
+  padding: 5.5% 12%; */
+  width: 53%;
+  padding: 6.5% 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 2.4rem;
+  z-index: 1;
+}
+
+.hero-content h3 {
+  color: #ffcf91;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 34px;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+  width: 85%;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.appointment-btn {
+  color: white;
+  padding: 1rem 2.8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #4f781c;
+  border: none;
+  border-radius: 5px;
+}
+
+.watch-video-btn {
+  color: white;
+  padding: 0.9rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: 1px solid #ffcf91;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.appointment-btn:hover {
+  background-color: #ffcf91;
+  color: #4f781c;
+}
+
+.watch-video-btn:hover {
+  background-color: #4f781c;
+  border: none;
+}
+
+.recommended {
+  background-color: #ffffff;
+  padding: 3% 5%;
+}
+
+.recommended .reco {
+  color: #4f781c;
+  font-size: 3.5rem;
+  padding: 3% 2% 4%;
+}
+
+.recommended-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3rem;
+  column-gap: 2.3rem;
+}
+
+.item {
+  text-align: center;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.first,
+.second {
+  flex: 1;
+}
+
+.first {
+  height: 27.5vh;
+  width: 100%;
+}
+
+.first img {
+  width: 210px;
+  height: 149px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+  text-align: left;
+  padding: 0.2rem 0 0 1rem;
+}
+
+.second h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 20px;
+  width: 80%;
+}
+
+.second p {
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 22px;
+  word-spacing: 1px;
+  width: 71%;
+}
+
+.write-up-para p {
+  width: 75%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #101806;
+  padding: 0;
+}
+
+.footer-wrap {
+  color: white;
+  background: #101806;
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-name img {
+  width: 45px;
+  height: 45px;
+  justify-self: center;
+}
+
+.logo-name span {
+  color: #ffcf91;
+}
+
+.explore,
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  font-size: 1.47rem;
+}
+
+.contact .explore-,
+.explore .explore-,
+.connect .explore- {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.explore .f6,
+.contact .f6 {
+  color: #f6f6f6;
+  font-weight: 200;
+}
+
+.sub-btn {
+  display: flex;
+  border-radius: 5px;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.connect .newsletter {
+  font-size: 1.6rem;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-btn input {
+  padding: 0.7rem;
+}
+
+.sub-btn input::placeholder {
+  color: #ababab;
+  font-weight: 400;
+}
+
+.sub-btn button {
+  border: none;
+  padding: 0.658rem 1.5rem;
+  background: #4f781c;
+  cursor: pointer;
+}
+
+.sub-btn button img {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-line {
+  color: #f6f6f6;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin-bottom: 6rem;
+}
+
+/*///////////////////////////////////////////////////*/
+
+/*TABLET VIEW*/
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 60%;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .page-header {
+    background-color: #4f781c;
+    height: auto;
+    width: 100%;
+    padding: 1rem 4.9rem;
+    color: white;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .logo h1 {
+    display: flex;
+    align-self: center;
+  }
+
+  .logo h1 span {
+    color: #ffcf91;
+  }
+
+  .nav-links,
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4.4rem;
+    display: none;
+  }
+
+  .nav-list .active,
+  .user-active {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav-list li a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f6f6f6;
+  }
+
+  .nav__toggle {
+    font-size: 3rem;
+    display: flex;
+  }
+
+  .user {
+    gap: 1rem;
+    font-size: 1.6rem;
+    display: none;
+  }
+
+  .hero-section {
+    background-image: url("/Capstone Project/images/Beatrice assets/Fashionable\ smiled\ young\ beautiful\ african\ american\ business\ woman\ with\ afro\ hairstyle\ wear\ in\ elegant\ black\ sitting\ and\ working\ at\ laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88.1vh;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hero-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .hero-content {
+    position: relative;
+    width: 69%;
+    padding: 8.5% 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 2.4rem;
+    z-index: 1;
+  }
+
+  .hero-content h3 {
+    color: #ffcf91;
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 30px;
+    width: 65%;
+  }
+
+  .hero-content p {
+    font-size: 1.46rem;
+    font-weight: 400;
+    line-height: 18px;
+    width: 80%;
+  }
+
+  .recommended {
+    background-color: #ffffff;
+    padding: 3% 5%;
+  }
+
+  .recommended .reco {
+    color: #4f781c;
+    font-size: 3.5rem;
+    padding: 3% 2% 4%;
+  }
+
+  .recommended-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2.3rem;
+  }
+
+  .item {
+    text-align: center;
+
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .first,
+  .second {
+    flex: 1;
+  }
+
+  .first {
+    height: 27.5vh;
+    width: 100%;
+  }
+
+  .first img {
+    width: 170px;
+    height: 120px;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: left;
+  }
+
+  .second h3 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 20px;
+    width: 100%;
+  }
+
+  .second p {
+    font-size: 1.2rem;
+    font-weight: 450;
+    line-height: 19px;
+    word-spacing: 1px;
+    width: 90%;
+  }
+
+  .write-up-para p {
+    width: 75%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #101806;
+    padding: 0;
+  }
+
+  .footer-wrap {
+    color: white;
+    background: #101806;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 8%;
+    justify-content: space-between;
+  }
+
+  .logo-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 8rem;
+  }
+
+  .logo-name img {
+    width: 45px;
+    height: 45px;
+    justify-self: center;
+  }
+
+  .logo-name span {
+    color: #ffcf91;
+  }
+
+  .explore,
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    font-size: 1.47rem;
+  }
+
+  .contact .explore-,
+  .explore .explore-,
+  .connect .explore- {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+
+  .explore .f6,
+  .contact .f6 {
+    color: #f6f6f6;
+    font-weight: 200;
+  }
+
+  .sub-btn {
+    display: flex;
+    border-radius: 5px;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .socials {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .socials img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .connect .newsletter {
+    font-size: 1.6rem;
+  }
+
+  .sub-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub-btn input {
+    padding: 0.7rem;
+  }
+
+  .sub-btn input::placeholder {
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .sub-btn button {
+    border: none;
+    padding: 0.658rem 1.5rem;
+    background: #4f781c;
+    cursor: pointer;
+  }
+
+  .sub-btn button img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-line {
+    color: #f6f6f6;
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 6rem;
+  }
+}
+
+/*///////////////////////////////////////////////////*/
+
+/*MOBILE VIEW*/
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .page-header {
+    background-color: #4f781c;
+    height: auto;
+    width: 100%;
+    padding: 1rem 4.9rem;
+    color: white;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .logo h1 {
+    display: flex;
+    align-self: center;
+  }
+
+  .logo h1 span {
+    color: #ffcf91;
+  }
+
+  .nav-links,
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4.4rem;
+    display: none;
+  }
+
+  .nav-list .active,
+  .user-active {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav-list li a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f6f6f6;
+  }
+
+  .nav__toggle {
+    font-size: 3rem;
+    display: flex;
+  }
+
+  .user {
+    gap: 1rem;
+    font-size: 1.6rem;
+    display: none;
+  }
+
+  .hero-section {
+    background-image: url("/Capstone Project/images/Beatrice assets/Fashionable\ smiled\ young\ beautiful\ african\ american\ business\ woman\ with\ afro\ hairstyle\ wear\ in\ elegant\ black\ sitting\ and\ working\ at\ laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88.1vh;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hero-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .hero-content {
+    position: relative;
+    width: 69%;
+    padding: 8.5% 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 2.4rem;
+    z-index: 1;
+  }
+
+  .hero-content h3 {
+    color: #ffcf91;
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 30px;
+    width: 65%;
+  }
+
+  .hero-content p {
+    font-size: 1.46rem;
+    font-weight: 400;
+    line-height: 18px;
+    width: 80%;
+  }
+
+  .recommended {
+    background-color: #ffffff;
+    padding: 3% 5%;
+  }
+
+  .recommended .reco {
+    color: #4f781c;
+    font-size: 3.5rem;
+    padding: 3% 2% 4%;
+  }
+
+  .recommended-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    column-gap: 2.3rem;
+  }
+
+  .item {
+    text-align: center;
+
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .first,
+  .second {
+    flex: 1;
+  }
+
+  .first img {
+    width: 170px;
+    height: 120px;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: left;
+  }
+
+  .second h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 20px;
+    width: 100%;
+  }
+
+  .second p {
+    font-size: 1.6rem;
+    font-weight: 450;
+    line-height: 19px;
+    word-spacing: 1px;
+    width: 90%;
+  }
+
+  .write-up-para p {
+    width: 75%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    background: #101806;
+  }
+
+  .footer-wrap {
+    color: white;
+    background: #101806;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 5%;
+  }
+
+  .logo-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .logo-name img {
+    width: 45px;
+    height: 45px;
+    justify-self: center;
+  }
+
+  .logo-name span {
+    color: #ffcf91;
+  }
+
+  .explore,
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.53rem;
+    width: 100%;
+  }
+
+  .contact .explore-,
+  .explore .explore-,
+  .connect .explore- {
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+
+  .explore .f6,
+  .contact .f6 {
+    color: #f6f6f6;
+    font-weight: 200;
+  }
+
+  .sub-btn {
+    display: flex;
+    border-radius: 5px;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .socials {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .socials img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .connect .newsletter {
+    font-size: 1.6rem;
+  }
+
+  .sub-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub-btn input {
+    padding: 0.7rem;
+  }
+
+  .sub-btn input::placeholder {
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .sub-btn button {
+    border: none;
+    padding: 0.658rem 1.5rem;
+    background: #4f781c;
+    cursor: pointer;
+  }
+
+  .sub-btn button img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-line {
+    color: #f6f6f6;
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 6rem;
+  }
+}

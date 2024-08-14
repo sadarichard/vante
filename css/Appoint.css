@@ -1,0 +1,932 @@
+/* DESKTOP VERSION */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+    background-color: rgba(246, 246, 246, 1);
+    overflow-x: hidden;
+  }
+  
+  .page-header {
+    background-color: rgba(79, 120, 28, 1);
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 4%;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    width: 70vw;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #f6f6f6;
+  }
+
+  .nav-list li:nth-child(2) a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-right: 0rem;
+  }
+
+  .user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15vw;
+    gap: 0.5rem;
+  }
+  
+  .user-active {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .user1 {
+    display: none;
+  }
+
+  .back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0rem 2rem 9rem;
+    width: 100%;
+  }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10%;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .arrow p {
+    padding-bottom: 0.5rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100rem;
+    text-align: center;
+    margin: 10rem auto;
+    gap: 3rem;
+}
+
+.form {
+    border: none;
+    width: 48rem;
+    transform: translateX(-1rem);
+    border-radius: 1rem;
+    background-color: rgb(255, 245, 233);
+    box-shadow: 1px 1px 7px grey;
+    padding: 2rem;
+}
+
+.form1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+}
+
+#cate {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#category {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 0.8rem 3rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    top: 7.5rem;
+}
+
+#health {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#consultant {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 0.8rem 3rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    top: 16.5rem;
+}
+
+
+#sess {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#session {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 0.8rem 3rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.img3 {
+    position: absolute;
+    top: 25.3rem;
+}
+
+
+#tim {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#time {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 0.8rem 3rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.img4 {
+    position: absolute;
+    top: 34.3rem;
+}
+
+
+#amo {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#amount {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 44rem;
+    padding: 1rem 3.5rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.img5 {
+    position: absolute;
+    top: 43.4rem;
+}
+
+.date-time {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 45rem;
+    transform: translateX(2rem);
+}
+
+.date-form {
+    border: none;
+    width: 43rem;
+    height: 40rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 245, 233);
+    box-shadow: 1px 1px 7px grey;
+    padding: 2rem;
+}
+
+.date-form h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 2.7rem;
+}
+
+#date {
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    width: 39rem;
+    padding: 1rem 2rem 25rem 2rem;
+    border: 1px solid rgba(9, 9, 9, 1);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+}
+
+.btn {
+    margin: 5rem auto;
+    text-align: center;
+    width: 45rem;
+}
+
+.btn1 {
+    margin-bottom: 1rem;
+    border: 0.5px solid grey;
+    border-radius: 0.5rem;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    width: 15rem;
+    background-color: rgba(246, 246, 246, 1);
+    transform: translateY(-1rem);   
+    font-size: 1.4rem;
+    margin-right: 1.2rem;
+}
+
+.btn1 a {
+  color: rgba(79, 120, 28, 1);
+  text-decoration: none;
+}
+
+.btn2 {
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    width: 20rem;
+    background-color: rgba(79, 120, 28, 1);
+    transform: translateY(-1rem);      
+    font-size: 1.4rem;
+}
+
+.btn2 a {
+  color: white;
+  text-decoration: none;
+}
+  /* TABLET VERSION */
+  
+  @media screen and (max-width: 1100px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Raleway", sans-serif;
+      }
+      
+      html {
+        font-size: 50%;
+        background-color: rgba(246, 246, 246, 1);
+      }
+      
+      .page-header {
+        background-color: rgba(79, 120, 28, 1);
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .nav-links {
+        display: flex;
+        justify-content: flex-start;
+      }
+      
+      .logo {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+    
+      .nav-list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        width: 70vw;
+        display: none;
+      }
+    
+      .nav-list li a {
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 300;
+        color: #f6f6f6;
+      }
+    
+      .nav-list li:nth-child(2) a {
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding-right: 0rem;
+      }
+    
+      .user {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 15vw;
+        gap: 0.5rem;
+        display: none;
+      }
+      
+      .user-active {
+        color: #ffffff;
+        font-size: 1.4rem;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    
+      .user1 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 60vw;
+        margin-right: 1rem;
+      }
+    
+      .back {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2rem 0rem 2rem 9rem;
+        width: 100%;
+      }
+    
+      .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 10%;
+        gap: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    
+      .arrow p {
+        padding-bottom: 0.5rem;
+      }
+      
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 75rem;
+    }
+    
+    .form {
+        border: none;
+        width: 50rem;
+        border-radius: 1rem;
+        background-color: rgb(255, 245, 233);
+        box-shadow: 1px 1px 7px grey;
+        padding: 2rem;
+    }
+    
+    .form1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    #cate {
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    #category {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img1 {
+        position: absolute;
+        top: 7.5rem;
+    }
+    
+    #health {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #consultant {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img2 {
+        position: absolute;
+        top: 17.5rem;
+    }
+    
+    
+    #sess {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #session {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img3 {
+        position: absolute;
+        top: 27.3rem;
+    }
+    
+    
+    #tim {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #time {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img4 {
+        position: absolute;
+        top: 37.3rem;
+    }
+    
+    
+    #amo {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #amount {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img5 {
+        position: absolute;
+        top: 47rem;
+    }
+    
+    .date-time {
+        width: 50rem;
+        margin-right: 6rem;
+    }
+    
+    .date-form {
+        border: none;
+        width: 50rem;
+        border-radius: 1rem;
+        background-color: rgb(255, 245, 233);
+        box-shadow: 1px 1px 7px grey;
+        padding: 2rem;
+    }
+    
+    .date-form h2 {
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-top: 2.7rem;
+    }
+    
+    #date {
+        margin-top: 1.3rem;
+        margin-bottom: 1rem;
+        width: 46rem;
+        padding: 1rem 2rem 25rem 2rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+    }
+    
+    .btn {
+        margin: 5rem auto;
+        text-align: center;
+        width: 45rem;
+    }
+    
+    .btn1 {
+        margin-bottom: 1rem;
+        color: rgba(79, 120, 28, 1);
+        border: 0.5px solid grey;
+        border-radius: 0.5rem;
+        padding: 1.4rem 1rem;
+        text-align: center;
+        width: 15rem;
+        background-color: rgba(246, 246, 246, 1);
+        transform: translateY(-1rem);   
+        font-size: 1.4rem;
+        margin-right: 1.2rem;
+    }
+    
+    .btn2 {
+        margin-bottom: 1rem;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1.4rem 1rem;
+        text-align: center;
+        width: 20rem;
+        background-color: rgba(79, 120, 28, 1);
+        transform: translateY(-1rem);      
+        font-size: 1.4rem;
+    }
+  }
+
+  /* MOBILE VERSION */
+  
+  @media screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Raleway", sans-serif;
+      }
+      
+      html {
+        font-size: 50%;
+        background-color: rgba(246, 246, 246, 1);
+      }
+      
+      .page-header {
+        background-color: rgba(79, 120, 28, 1);
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .nav-links {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .logo {
+        width: 30rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+    
+      .nav-list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        width: 70vw;
+        display: none;
+      }
+    
+      .nav-list li a {
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 300;
+        color: #f6f6f6;
+      }
+    
+      .nav-list li:nth-child(2) a {
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding-right: 0rem;
+      }
+    
+      .user {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 15vw;
+        gap: 0.5rem;
+        display: none;
+      }
+      
+      .user-active {
+        color: #ffffff;
+        font-size: 1.4rem;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    
+      .user1 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 30rem;
+        margin-right: 1rem;
+      }
+    
+      .back {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2rem 0rem 2rem 9rem;
+        width: 100%;
+      }
+    
+      .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 10%;
+        gap: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    
+      .arrow p {
+        padding-bottom: 0.5rem;
+      }
+      
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 75rem;
+    }
+    
+    .form {
+        border: none;
+        width: 50rem;
+        border-radius: 1rem;
+        background-color: rgb(255, 245, 233);
+        box-shadow: 1px 1px 7px grey;
+        padding: 2rem;
+        transform: translateX(-6rem);
+    }
+    
+    .form1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    #cate {
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    #category {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img1 {
+        position: absolute;
+        top: 7.5rem;
+    }
+    
+    #health {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #consultant {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img2 {
+        position: absolute;
+        top: 17.5rem;
+    }
+    
+    
+    #sess {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #session {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img3 {
+        position: absolute;
+        top: 27.3rem;
+    }
+    
+    
+    #tim {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #time {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img4 {
+        position: absolute;
+        top: 37.3rem;
+    }
+    
+    
+    #amo {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    #amount {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 44rem;
+        padding: 1.2rem 3.5rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+        position: relative;
+    }
+    
+    .img5 {
+        position: absolute;
+        top: 47rem;
+    }
+    
+    .date-time {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 50rem;
+        margin-right: 15rem;
+    }
+    
+    .date-form {
+        border: none;
+        width: 50rem;
+        height: 40rem;
+        border-radius: 1rem;
+        background-color: rgb(255, 245, 233);
+        box-shadow: 1px 1px 7px grey;
+        padding: 2rem;
+    }
+    
+    .date-form h2 {
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-top: 2.7rem;
+    }
+    
+    #date {
+        margin-top: 1.3rem;
+        margin-bottom: 1rem;
+        width: 46rem;
+        padding: 1rem 2rem 25rem 2rem;
+        border: 1px solid rgba(9, 9, 9, 1);
+        background-color: transparent;
+        font-size: 1.1rem;
+        border-radius: 0.3rem;
+    }
+    
+    .btn {
+        margin: 5rem auto;
+        text-align: center;
+        width: 45rem;
+    }
+    
+    .btn1 {
+        margin-bottom: 1rem;
+        color: rgba(79, 120, 28, 1);
+        border: 0.5px solid grey;
+        border-radius: 0.5rem;
+        padding: 1.4rem 1rem;
+        text-align: center;
+        width: 15rem;
+        background-color: rgba(246, 246, 246, 1);
+        transform: translateY(-1rem);   
+        font-size: 1.4rem;
+        margin-right: 1.2rem;
+    }
+    
+    .btn2 {
+        margin-bottom: 1rem;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1.4rem 1rem;
+        text-align: center;
+        width: 20rem;
+        background-color: rgba(79, 120, 28, 1);
+        transform: translateY(-1rem);      
+        font-size: 1.4rem;
+    }
+  }

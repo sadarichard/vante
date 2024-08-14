@@ -1,0 +1,672 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  background: #4f781c;
+  height: 100px;
+  width: 100%;
+  /* padding: 0 200px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#burger {
+  display: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  /* width: 50%; */
+  /* margin-left: 110px; */
+}
+
+li {
+  margin-right: 30px;
+  color: white;
+  font-size: 25px;
+}
+
+li:hover {
+  color: #ffcf91;
+  font-weight: bold;
+}
+
+button {
+  height: 56px;
+  width: 200px;
+  border: 1px solid #ffcf91;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  margin-right: 10px;
+  color: white;
+}
+
+nav .btn {
+  /* transform: translateX(100px); */
+  display: flex;
+}
+
+.sign {
+  color: #4f781c;
+  background: #ffcf91;
+}
+
+.get {
+  color: #4f781c;
+}
+
+button:hover {
+  background: #ffcf91;
+  color: black;
+}
+
+.hero-section {
+  width: 100%;
+  height: 971px;
+  background-image: url("../images/Kingsley assets/portrait-happy-young-woman_23-2149309261.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.hero-section > .overlay {
+  background: rgba(79, 76, 76, 0.5);
+  height: 100%;
+  width: auto;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  padding-top: 2px;
+  padding: 0px 200px;
+}
+
+.overlay .overlayee {
+  text-align: start;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.hero-section h1 {
+  color: #ffcf91;
+  font-size: 76px;
+}
+
+.hero-section p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.hero-btn {
+  display: flex;
+}
+
+.hero-section button {
+  font-size: 16px;
+  color: white;
+}
+
+.reg {
+  width: 328px;
+  background: #4f781c;
+  border: none;
+}
+
+.hero-section button:hover {
+  color: white;
+  background: green;
+}
+
+.key-feature {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  height: 1280px;
+}
+
+.key-feature h1 {
+  font-size: 48px;
+  color: #4f781c;
+}
+
+.key-feature p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+  row-gap: 1em;
+  column-gap: 1em;
+  /* overflow: hidden; */
+  justify-content: space-evenly;
+  /* border: 1px solid green; */
+}
+
+.key-container {
+  width: 455px;
+  height: 384px;
+  padding: 10px 30px;
+  background: #fff5e9;
+  margin: 10px 0;
+  box-shadow: 5px 8px rgb(223, 221, 221);
+  border-radius: 5px;
+}
+
+.key-container img {
+  margin: 30px 0;
+}
+
+.key-container p {
+  font-size: 16px;
+}
+
+.landing-page {
+  background: #4f781c;
+  height: 830px;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+
+.landing-page h1 {
+  font-size: 48px;
+}
+
+.landing-page p {
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.main-land {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.land-div {
+  width: 30%;
+  margin: 20px;
+}
+
+.land-div h1 {
+  font-size: 32px;
+}
+
+.land-div p {
+  font-size: 16px;
+  line-height: 30px;
+  /* width: 70%; */
+}
+
+.land-div img {
+  width: 403px;
+  height: 300px;
+}
+
+.faq {
+  text-align: center;
+  width: 100%;
+  height: 672px;
+  margin: 0 auto;
+}
+
+.faq h1 {
+  font-size: 48px;
+  color: #4f781c;
+}
+
+.faq p {
+  font-size: 25px;
+}
+
+.tab {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tab img {
+  width: 560px;
+  height: 378px;
+  margin-top: 50px;
+}
+
+.tab-ques {
+  text-align: left;
+}
+
+.tab-ques p {
+  background: #e6e6e6;
+  padding: 15px;
+  border-radius: 5px;
+  width: 625px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.tab-ques span {
+  margin-right: 50px;
+}
+
+.control {
+  width: 80%;
+  display: flex;
+  height: 454px;
+  padding: 30px 100px;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 20px auto;
+  background: hsl(87, 62%, 29%);
+  color: white;
+}
+
+.control .ctrl-img {
+  width: 1400px;
+  margin-right: 50px;
+  height: 395px;
+  border-radius: 10px;
+  background: url("../images/Kingsley assets/2149309304.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ctr h1 {
+  font-size: 48px;
+  margin-top: -20px;
+  width: 60%;
+}
+
+.ctr p {
+  font-size: 20px;
+  width: 70%;
+  line-height: 30px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+.ctr button {
+  background: #ffcf91;
+}
+
+footer {
+  color: white;
+  background: #101806;
+  height: 285px;
+  display: flex;
+  padding: 100px 200px;
+  justify-content: space-between;
+}
+
+.logo-name {
+  text-align: center;
+}
+
+.logo-name span {
+  color: #ffcf91;
+}
+
+.sub-btn {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.socials .mr {
+  margin: 0 24px;
+}
+
+.sub-btn input {
+  height: 56px;
+  width: 300px;
+  padding: 0 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+}
+
+.sub-btn button {
+  border: none;
+  background: #4f781c;
+  width: 20%;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.line {
+  border-top: 2px solid white;
+  height: 100px;
+  background: #101806;
+}
+
+@media (min-width: 650px) and (max-width: 1080px) {
+  nav img {
+    transform: translatex(-120px);
+    width: 50px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+    transform: translatex(-550px);
+  }
+
+  nav .btn {
+    width: 284px;
+    height: 48px;
+    font-size: 12px;
+    /* margin-left: -0px; */
+  }
+
+  nav button {
+    font-size: 16px;
+  }
+
+  .hero-section {
+    background-position: 0 0;
+    /* overflow: hidden; */
+    height: 745px;
+    /* border-bottom-left-radius: calc(50% - 16px); */
+    background-image: 100%;
+  }
+
+  .hero-section h1 {
+    color: #ffcf91;
+    font-size: 31px;
+    line-height: 32px;
+  }
+
+  .hero-section p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .hero-section button {
+    font-size: 14px;
+    color: white;
+    height: 48px;
+  }
+
+  .reg {
+    width: 240px;
+  }
+  .lea {
+    width: 130px;
+  }
+
+  .hero-section > .overlay {
+    padding: 0;
+    height: 525px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+  }
+
+  .key-feature {
+    padding: 0 50px;
+    margin-top: -200px;
+    height: 950px;
+    width: 650px;
+  }
+
+  .container {
+    display: grid;
+    width: 650px;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+    /* width: 100%; */
+    gap: 1em;
+    margin: 0 -20px;
+  }
+
+  .key-container {
+    width: 250px;
+    height: 258px;
+    /* gap: 0.7rem; */
+  }
+
+  .key-feature h1 {
+    font-size: 24px;
+    color: #4f781c;
+  }
+
+  .key-container h2 {
+    font-size: 14px;
+  }
+
+  .key-container p {
+    font-size: 0px;
+    line-height: 10px;
+  }
+
+  .key-container img {
+    width: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .key-feature p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .main-land {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .landing-page {
+    height: 680px;
+  }
+
+  .landing-page h1 {
+    font-size: 24px;
+  }
+
+  .landing-page p {
+    font-size: 16px;
+  }
+  .land-div {
+    width: 100%;
+  }
+
+  .land-div img {
+    width: 186px;
+    height: 183px;
+  }
+  .edit img {
+    width: 245px;
+  }
+
+  .faq {
+    height: 1000px;
+    /* width: 90%; */
+  }
+
+  .faq h1 {
+    font-size: 24px;
+  }
+
+  .faq p {
+    font-size: 18px;
+  }
+
+  .tab img {
+    width: 530px;
+  }
+
+  .control {
+    width: 95%;
+    padding: 20px;
+  }
+  .control .ctrl-img {
+    width: 1900px;
+    /* height: 70%; */
+  }
+
+  .ctr {
+    margin-left: 0;
+  }
+
+  .ctr h1 {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+  .ctr p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer p,
+  h1,
+  h3 {
+    font-size: 12px;
+  }
+
+  .socials img {
+    width: 30px;
+  }
+
+  .logo-name img {
+    width: 20px;
+  }
+  .sub-btn input {
+    width: 70%;
+  }
+
+  .sub-btn input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  nav {
+    width: 100%;
+    height: 70px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  nav img {
+    width: 40px;
+    transform: translateX(-280px);
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+    margin-left: 260px;
+  }
+
+  .hero-section {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+
+  .hero-section > .overlay {
+    height: 600px;
+    width: 100%;
+    padding-top: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    /* margin-left: -120px; */
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+
+  .overlay .overlayee {
+    text-align: center;
+    margin: 0;
+  }
+
+  .overlayee h1 {
+    font-size: 25px;
+    margin-left: -100px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .hero-section p {
+    font-size: 12px;
+    text-align: center;
+    /* width: 130px; */
+    margin-left: -100px;
+  }
+  .overlayee button {
+    margin-left: -60px;
+    font-size: 14px;
+  }
+
+  .reg {
+    width: 190px;
+    font-size: 14px;
+    margin-right: 80px;
+  }
+
+  .lea {
+    width: 100px;
+  }
+
+  .key-feature {
+    height: 2100px;
+  }
+
+  .container {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .key-container {
+    width: 300px;
+  }
+}

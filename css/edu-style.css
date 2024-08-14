@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 104px;
+  background: #4f781c;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.pro {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+}
+
+.pro p {
+  margin-right: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-section {
+  background: url("../images/Kingsley assets/unsplash_Ok76F6yW2iA.png")
+    no-repeat;
+  /* width: 100%; */
+  background-size: cover;
+  height: 565px;
+  padding: 15px 120px;
+}
+
+.hero-section h1 {
+  font-size: 64px;
+  margin-top: 80px;
+  color: #ffcf91;
+  line-height: 56px;
+}
+
+.hero-section p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.tran-btn {
+  display: flex;
+  border: 1px solid white;
+  width: 505px;
+  height: 64px;
+  border-radius: 10px;
+}
+
+.tran-btn input {
+  background: inherit;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  margin-left: 40px;
+
+  font-size: 20px;
+}
+
+.tran-btn input::placeholder {
+  color: white;
+}
+
+.latest-resources,
+.recommended {
+  padding: 50px 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  color: #4f781c;
+  margin-bottom: 50px;
+  font-size: 48px;
+}
+.recent-article {
+  display: grid;
+  grid-template-columns: 630px 630px;
+  grid-template-rows: 210px 210px;
+  gap: 2em 9em;
+}
+
+.article {
+  display: flex;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.article img {
+  width: 280px;
+  height: 215px;
+}
+
+.article-word {
+  padding: 20px;
+}
+
+.web-img {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3em;
+}
+
+.recommended .web-img {
+  margin-top: -200px;
+}
+
+footer {
+  color: white;
+  background: #101806;
+  height: 255px;
+  display: flex;
+  padding: 100px 200px;
+  justify-content: space-between;
+}
+
+.logo-name {
+  text-align: center;
+}
+
+.logo-name span {
+  color: #ffcf91;
+}
+
+.sub-btn {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.socials .mr {
+  margin: 0 24px;
+}
+
+.sub-btn input {
+  height: 56px;
+  width: 300px;
+  padding: 0 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+}
+
+.sub-btn button {
+  border: none;
+  background: #4f781c;
+  width: 20%;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.line {
+  border-top: 2px solid white;
+  height: 60px;
+  background: #101806;
+}
