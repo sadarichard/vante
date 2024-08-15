@@ -15,7 +15,7 @@ body {
   /* background-color: #9e9e9e; */
   height: 100vh;
   width: 100%;
-  background-image: url("/images/Beatrice assets/background.jpg");
+  background-image: url("images/Beatrice assets/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -225,7 +225,7 @@ body {
 
   body {
     font-size: 60%;
-    background-image: url("/images/Beatrice assets/background.jpg");
+    background-image: url("images/Beatrice assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Raleway", sans-serif;
@@ -411,7 +411,7 @@ body {
   }
 
   body {
-    background-image: url("/images/Beatrice assets/background.jpg");
+    background-image: url("images/Beatrice assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;

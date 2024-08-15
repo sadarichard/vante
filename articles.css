@@ -69,7 +69,7 @@ a {
 }
 
 .hero-section {
-  background-image: url("/images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
+  background-image: url("images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -463,7 +463,7 @@ footer {
   }
 
   .hero-section {
-    background-image: url("/Capstone Project/images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
+    background-image: url("images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -844,7 +844,7 @@ footer {
   }
 
   .hero-section {
-    background-image: url("/Capstone Project/images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
+    background-image: url("images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;

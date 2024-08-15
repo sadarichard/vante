@@ -67,7 +67,7 @@ header {
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("../images/Shalom assets/unsplash_4gcqRf3-f2I.png");
+    url("images/Shalom assets/unsplash_4gcqRf3-f2I.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -106,7 +106,7 @@ header {
 }
 .header-note .srch-icon {
   padding-left: 3.8rem;
-  background-image: url("../images/Shalom assets/search-normal.png");
+  background-image: url("images/Shalom assets/search-normal.png");
   background-repeat: no-repeat;
   background-size: 2.3rem;
   background-position: 0.7rem center;
@@ -349,7 +349,7 @@ footer {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
-      url("../images/Shalom assets/unsplash_4gcqRf3-f2I.png");
+      url("images/Shalom assets/unsplash_4gcqRf3-f2I.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -664,7 +664,7 @@ footer {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
-      url("../images/Shalom assets/unsplash_4gcqRf3-f2I.png");
+      url("images/Shalom assets/unsplash_4gcqRf3-f2I.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
