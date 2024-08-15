@@ -291,9 +291,13 @@
     width: 100%;
   }
 
+  .questions p {
+    font-size: 1.5rem;
+  }
+
   .questions h3 {
     color: rgba(79, 120, 28, 1);
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: 400;
     padding-bottom: 1rem;
   }
