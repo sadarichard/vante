@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 
 html {
@@ -24,6 +24,10 @@ a {
   width: 100%;
   padding: 2.5rem 6.9rem;
   color: white;
+  position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .logo h1 {
@@ -402,7 +406,7 @@ footer {
     padding: 1rem 4.9rem;
     color: white;
 
-    position: sticky;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 100;
@@ -802,7 +806,7 @@ footer {
     padding: 1rem 5%;
     color: white;
 
-    position: sticky;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 100;
