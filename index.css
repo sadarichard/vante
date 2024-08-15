@@ -209,7 +209,7 @@ button:last-child:hover a {
 }
 
 .key-container p {
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .landing-page {
@@ -281,9 +281,13 @@ button:last-child:hover a {
 
 .questions h3 {
   color: rgba(79, 120, 28, 1);
-  font-size: 1.8rem;
+  font-size: 4.8rem;
   font-weight: 400;
   padding-bottom: 1rem;
+}
+
+.questions p {
+  font-size: 1.5rem;
 }
 
 .breakdown {
