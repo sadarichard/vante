@@ -15,14 +15,14 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .page-header {
   background-color: rgba(79, 120, 28, 1);
   height: auto;
   width: 100%;
-  padding: 1rem 6.9rem;
+  padding: 2.5rem 6.9rem;
   color: white;
 
   position: sticky;

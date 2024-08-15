@@ -22,13 +22,8 @@ a {
   background-color: #4f781c;
   height: auto;
   width: 100%;
-  padding: 1rem 6.9rem;
+  padding: 2.5rem 6.9rem;
   color: white;
-
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 100;
 }
 
 .logo h1 {
@@ -74,7 +69,7 @@ a {
 }
 
 .hero-section {
-  background-image: url("/Capstone Project/images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
+  background-image: url("/images/Beatrice assets/unsplash_4-EeTnaC1S4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

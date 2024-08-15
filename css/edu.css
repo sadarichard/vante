@@ -51,10 +51,11 @@ ul {
   color: #f6f6f6;
 }
 
-.nav-list li:last-child a {
+.nav-list li:nth-last-child(3) a {
   font-size: 1.8rem;
   font-weight: 501;
   padding-right: 0rem;
+  color: rgba(255, 207, 145, 1);
 }
 
 .user {
