@@ -1,0 +1,83 @@
+
+body{
+  background-color: bisque;
+  min-height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.admin, .Admin, .Moderator, .moderator, .member, .guest, .no-access {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 0.05rem;
+}
+
+button{
+  padding: 1rem;
+  border: 0.05rem solid green;
+  outline:none;
+  border-radius: 1rem;
+  width: 20%;
+  font-size: 1rem;
+}
+
+input {
+  border-radius: 0.5rem; 
+  font-size: 1.3rem;
+  text-align: center;
+  outline:none;
+  border: none;
+  height: 2.9rem;
+  width: 20%;
+}
+
+Input:focus{
+  outline:none;
+  border:1px solid green;
+}
+
+label{ 
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.admin {
+    color: white;
+    background-color: green;
+}
+
+.Admin {
+    color: white;
+    background-color: green;
+}
+
+.moderator {
+    color: white;
+    background-color: blue;
+}
+
+.Moderator {
+    color: white;
+    background-color: blue;
+}
+
+.member {
+    color: white;
+    background-color: orange;
+}
+
+.guest {
+    color: white;
+    background-color: purple;
+}
+
+.no-access {
+    color: white;
+    background-color: red;
+}

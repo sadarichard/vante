@@ -53,6 +53,7 @@ function calculateScores() {
     } else {
         positions[0] = 2;
     }
+    
     if (total2 >= total1 && total2 >= total3 && total2 >= total4 && total2 >= total5 && total2 >= total6 && total2 >= total7 && total2 >= total8 && total2 >= total9 && total2 >= total10) {
         positions[1] = 1;
     } else if (total2 < total1 && total2 < total3 && total2 < total4 && total2 < total5 && total2 < total6 && total2 < total7 && total2 < total8 && total2 < total9 && total2 < total10) {

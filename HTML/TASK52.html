@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/TASK52.css">
+    <title>Cart Management</title>
+  </head>
+  <body>
+    <h1>Shopping Cart Management</h1>
+    <form>
+      <label for="item-name">Item Name:</label>
+      <input type="text" id="item-name" class="item-name"><br>
+      <label for="item-price">Item Price:</label>
+      <input type="number" id="item-price" class="item-price"><br>
+      <button type="button" onclick="addItem()">Add Item</button>
+      <button type="button" onclick="removeLastItem()">Remove Last Item</button>
+
+      <div class="summary">
+        <h2>Cart Summary</h2>
+        <p class="total-items">Total Items: 0</p>
+        <p class="total-price">Total Price: $0.00</p>
+        <p class="free-shipping">Free Shipping: Not eligible</p>
+      </div>
+
+      <h2>Items List</h2>
+      <ul class="items-list">
+      </ul>
+
+      <p class="messages"></p>
+    </form>
+
+    <script src="/JAVASCRIPT/TASK52.js"></script>
+  </body>
+</html>

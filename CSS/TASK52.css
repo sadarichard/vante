@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 10rem auto;
+  padding: 2rem;
+  background-image: url('/pexels-camcasey-1722183.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+  color: #7a3507;
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+}
+
+form {
+  background-color: rgba(128, 128, 128, 0.521);
+  padding: 5rem;
+  border-radius: 1rem;
+  max-width: 60rem;
+  min-height: 70vh;
+  margin: auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 34rem;
+  height: 4rem;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+button {
+  width: 14rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #7a3507;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+button:hover {
+  background-color: #96450f;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.5rem;
+  color: #f0f0f0;
+}
+
+.summary h2 {
+  display: flex;
+  align-self: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: black;
+}

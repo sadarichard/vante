@@ -17,7 +17,7 @@ for(user of backgroundColorChange) {
     user.addEventListener("click", function() {
         console.log(this);
         this.style.backgroundColor = "yellow";
-        this.style.display = "inline";
+        this.style.display = "block";
     });
 }
 
